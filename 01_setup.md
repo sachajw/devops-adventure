@@ -16,7 +16,7 @@
 ## Linux
 
 ## MacOs
-- [MacPorts.org](https://www.macports.org/)
+- [Macports.org](https://www.macports.org/)
 - [Brew.sh](https://brew.sh/)
 
 ## Useful resources
