@@ -10,11 +10,14 @@
 ## Linux
 
 ## MacOs
-- Package Manag
+- [MacPorts.org](https://www.macports.org/)
+- [Brew.sh](https://brew.sh/)
 
 ## Useful resources
-- [Devdocs.io](https://devdocs.io/)
-
+### Devdocs | The online command encyclopedia
+- [devdocs.io](https://devdocs.io/)
+### SDKMan | For managing all things Java
+- [sdkman.io](https://sdkman.io/)
 
 # Choose between Docker or Podman
 - [Read this article to gain a holistic understanding of PodMan vs Docker](https://www.lambdatest.com/blog/podman-vs-docker/)
