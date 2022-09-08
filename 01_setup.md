@@ -22,7 +22,9 @@
 - Kind allows you to use Docker to run K8s nodes as containers
 
 ## [Kubernetes](https://kubernetes.io/)
-- Is a production grade container orchestrater
+- K8s is a production grade container orchestrater
+- K8s is the conductor of the orchestra where the conductor is K8s and the orchestra is the containers within PODs
+- PODS are cuddly safe worlds to hold containers (so cute)
 
-## Ortelius
+## [Ortelius](https://ortelius.io/)
 -
