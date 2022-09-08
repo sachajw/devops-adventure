@@ -73,7 +73,7 @@
 - Get familar with the basic commands
 - Use Devdocs and the documentation on the site
 
-## [PostgreSQL](https://www.postgresql.org/)
+## [PostgreSQL.org](https://www.postgresql.org/)
 - Open Source relational database
 
 ## [Keptn.sh](https://keptn.sh/)
