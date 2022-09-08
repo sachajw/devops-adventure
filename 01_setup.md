@@ -36,7 +36,7 @@
 
 ## [Git-scm.com](https://git-scm.com/)
 - Install Git for all things source control
-- Get familiar with the basic commands such pushing and pulling of changes and creating branches
+- Get familiar with the basic commands such as pushing and pulling of changes and creating branches
 - Use Devdocs and the documentation on the site
 
 ## [Docker.com](https://www.docker.com/)
