@@ -62,6 +62,14 @@
 - Get familiar with the basic commands
 - Checkout the documentation on the site
 
+## Container Registries
+- Think of container registries as huge parking lots for containers
+- [AWS registry](https://gallery.ecr.aws/)
+- [Docker registry](https://hub.docker.com/_/registry)
+- [GCP registry](https://cloud.google.com/container-registry)
+- [Azure registry](https://azure.microsoft.com/en-us/products/container-registry/)
+- [RedHat Quay registry](https://quay.io/)
+
 ## [Kind](https://kind.sigs.k8s.io/)
 - Kind allows you to use Docker to run K8s nodes as containers
 - Get familiar with the basic commands
