@@ -7,6 +7,7 @@
 ## What are we building?
 - We are building [this](https://filedn.eu/lJEPcSQWQQPRsWJKijxnXCQ/ortelius/gitops/01-ci-dev-ortelius-cloudnative-architecture-poc.html)
 
+# Operating Systems
 ## Windows
 - `Windows 10` latest version & fully updated
 - Enable `WSL2` | Go to `Programs and features` --> `Turn Windows features on or off` --> `Windows Subsystem for Linux`
@@ -31,6 +32,7 @@
 - [sdkman.io](https://sdkman.io/)
 - Usage [here](https://sdkman.io/usage)
 
+# Main Course
 ## Choose between Docker or Podman
 - [Read this article to gain a holistic understanding of PodMan vs Docker](https://www.lambdatest.com/blog/podman-vs-docker/)
 
@@ -76,6 +78,7 @@
 ## [PostgreSQL.org](https://www.postgresql.org/)
 - Open Source relational database
 
+# Dessert
 ## [Keptn.sh](https://keptn.sh/)
 - Cloud native application life-cycle orchestration
 - API & event driven
