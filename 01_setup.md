@@ -5,7 +5,11 @@
 - Please help us make the documentation better
 
 ## Windows
-
+- Windows 10 latest version & fully updated
+- WSL2 enabled | Go to `Programs and features` --> `Turn Windows features on or off` --> `Windows Subsystem for Linux`
+- I recommend using a second disk if you have one in your machine to create the custom folder to house the VMDK
+- This splits up the I/O between the Windows OS and WSL2 which is just a stripped down virtual machine
+- Install Windows Terminal [here](https://docs.microsoft.com/en-us/windows/terminal/install)for easier management
 
 ## Linux
 
