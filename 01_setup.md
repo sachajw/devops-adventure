@@ -16,8 +16,8 @@
 ## Useful resources
 ### Devdocs | The online command encyclopedia & yes you can access it offline
 - [devdocs.io](https://devdocs.io/)
-- Bash, Docker, Git, Nginx, Kubectl, Kubernetes
-### SDKMan | For managing all things Java
+- Bash, CSS, Docker, Flask, Git, Go, Brew, HTML, HTTP, Java, JavaScript, Markdown, Nginx, Nodejs, npm, Python, Kubectl, Kubernetes
+### SDKMan | For managing all things Java | SDKs | JDKs
 - [sdkman.io](https://sdkman.io/)
 
 # Choose between Docker or Podman
