@@ -83,6 +83,7 @@
 
 ## [Helm.sh](https://helm.sh/)
 - Install Helm for your operating system (Scroll down until you see `Get Helm!`)
+- K8s templating engine
 
 ## [Argo-CD.readthedocs.io](https://argo-cd.readthedocs.io/en/stable/#:~:text=Argo%20CD%20is%20implemented%20as,target%20state%20is%20considered%20OutOfSync%20.)
 - Argo CD is a declarative, GitOps continous delivery tool for Kubernetes
