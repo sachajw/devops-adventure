@@ -14,10 +14,11 @@
 - [Brew.sh](https://brew.sh/)
 
 ## Useful resources
-### Devdocs | The online command encyclopedia
+### Devdocs | The online command encyclopedia & yes you can access it offline
 - [devdocs.io](https://devdocs.io/)
+- Bash, Docker, Git, Nginx, Kubectl, Kubernetes
 ### SDKMan | For managing all things Java
-- [sdkman.io](https://sdkman.io/)
+- [sdkman.io](https://sdkman.io/
 
 # Choose between Docker or Podman
 - [Read this article to gain a holistic understanding of PodMan vs Docker](https://www.lambdatest.com/blog/podman-vs-docker/)
