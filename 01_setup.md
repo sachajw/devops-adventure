@@ -89,3 +89,4 @@
 - Documentation [here](https://docs.ortelius.io/guides/)
 - User guide [here](https://docs.ortelius.io/guides/userguide/)
 - Contributors guide [here](https://docs.ortelius.io/guides/contributorguide/)
+- Installation & Suport [here](https://docs.ortelius.io/guides/userguide/installation-and-support/)
