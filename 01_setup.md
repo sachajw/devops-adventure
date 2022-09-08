@@ -23,10 +23,15 @@
 - [Macports.org](https://www.macports.org/)
 - [Brew.sh](https://brew.sh/)
 
-## Knowledge Terms
+## Jargon
+- Blast radius
 - Containers
+- Continous Integration
+- Continous Delivery
+- Event driven
 - GitOps
 - Helm
+- Markdown
 - Microservices
 - PODs
 - Opensource
