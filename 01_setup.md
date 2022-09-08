@@ -86,4 +86,6 @@
 - Install [here](https://argo-cd.readthedocs.io/en/stable/getting_started/)
 
 ## [Ortelius.io](https://ortelius.io/)
--
+- Documentation [here](https://docs.ortelius.io/guides/)
+- User guide [here](https://docs.ortelius.io/guides/userguide/)
+- Contributors guide [here](https://docs.ortelius.io/guides/contributorguide/)
