@@ -2,6 +2,7 @@
 
 ## Windows
 
+
 ## Linux
 
 ## MacOs
@@ -12,7 +13,7 @@
 
 ## [Docker](https://www.docker.com/)
 - [Account setup](https://hub.docker.com/signup)
-- [Install](https://docs.docker.com/get-docker/
+- [Install](https://docs.docker.com/get-docker/)
 
 ## [Podman](https://podman.io/)
 - [Podman-Desktop](https://podman-desktop.io/)
