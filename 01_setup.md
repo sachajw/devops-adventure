@@ -72,6 +72,7 @@
 
 ## [Kind](https://kind.sigs.k8s.io/)
 - Kind allows you to use Docker to run K8s nodes as containers
+- Install [here](https://kind.sigs.k8s.io/docs/user/quick-start/#installation)
 - Get familiar with the basic commands
 - Checkout the documentation on the site
 
@@ -79,6 +80,7 @@
 - K8s is a production grade container orchestrater
 - K8s is the conductor of the orchestra where the conductor is K8s and the orchestra is the containers within PODs
 - PODS are cuddly safe worlds to hold containers (so cute)
+- Install Kubectl the command line tool [here](https://kubernetes.io/docs/tasks/tools/)
 - Get familar with the basic commands
 - Use Devdocs and the documentation on the site
 
