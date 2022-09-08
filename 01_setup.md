@@ -1,4 +1,4 @@
-# SETUP
+# Setup
 ### Disclaimer:
 - Please read the documentation for each subject
 - This documentation will be very summarised and expects you to go deeper
