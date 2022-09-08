@@ -44,7 +44,7 @@
 - [sdkman.io](https://sdkman.io/)
 - Usage [here](https://sdkman.io/usage)
 
-# Choose between Docker or Podman
+## Choose between Docker or Podman
 - [Read this article to gain a holistic understanding of PodMan vs Docker](https://www.lambdatest.com/blog/podman-vs-docker/)
 
 ## [Git-scm.com](https://git-scm.com/)
