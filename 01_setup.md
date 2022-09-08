@@ -23,19 +23,6 @@
 - [Macports.org](https://www.macports.org/)
 - [Brew.sh](https://brew.sh/)
 
-## Jargon
-- Blast radius
-- Containers
-- Continous Integration
-- Continous Delivery
-- Event driven
-- GitOps
-- Helm
-- Markdown
-- Microservices
-- PODs
-- Opensource
-
 ## Useful resources
 ### Devdocs | The online command encyclopedia & yes you can access it offline
 - [devdocs.io](https://devdocs.io/)
