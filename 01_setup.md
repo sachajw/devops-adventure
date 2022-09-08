@@ -10,6 +10,7 @@
 - I recommend using a second disk if you have one in your machine to create the custom folder to house the VMDK
 - This splits up the I/O between the Windows OS and WSL2 which is just a stripped down virtual machine
 - Install Windows Terminal [here](https://docs.microsoft.com/en-us/windows/terminal/install)for easier management
+-
 
 ## Linux
 
