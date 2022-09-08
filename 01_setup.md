@@ -52,6 +52,7 @@
 
 ## Container Registries
 - Think of container registries as huge parking lots for containers
+- Container images can be pushed and pulled from these locations
 - [AWS registry](https://gallery.ecr.aws/)
 - [Docker registry](https://hub.docker.com/_/registry)
 - [GCP registry](https://cloud.google.com/container-registry)
@@ -71,6 +72,9 @@
 - Install Kubectl the command line tool [here](https://kubernetes.io/docs/tasks/tools/)
 - Get familar with the basic commands
 - Use Devdocs and the documentation on the site
+
+## [PostgreSQL](https://www.postgresql.org/)
+- Open Source relational database
 
 ## [Keptn.sh](https://keptn.sh/)
 - Cloud native application life-cycle orchestration
