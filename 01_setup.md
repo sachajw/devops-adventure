@@ -10,12 +10,13 @@
 ## Linux
 
 ## MacOs
+- Package Manag
 
 ## Useful resources
 - [Devdocs.io](https://devdocs.io/)
 
 
-- Choose between Docker or Podman
+# Choose between Docker or Podman
 - [Read this article to gain a holistic understanding of PodMan vs Docker](https://www.lambdatest.com/blog/podman-vs-docker/)
 
 ## [Docker](https://www.docker.com/)
