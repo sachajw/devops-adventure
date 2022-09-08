@@ -5,19 +5,21 @@
 - Python Web UI to manage PostgreSQL [PgAdmin](https://www.pgadmin.org/)
 - PostgreSQL Container can be pulled from [here](https://hub.docker.com/_/postgres/)
 
-## Jargon
+## Jargon Glossary
 - API
 - Backend
 - Blast radius
 - Containers
 - Continous Integration
 - Continous Delivery
+- Data Science
 - Event driven
 - Frontend
 - GitOps
 - Helm
 - Markdown
+- Machine Learning
 - Microservices
+- Opensource
 - Parameterisation
 - PODs
-- Opensource
