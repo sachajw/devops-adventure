@@ -27,7 +27,7 @@
 ## Resources
 #### Learning platforms
 - [Udemy.com](https://udemy.com)
-- [Kodekloud.com](https://kodekloud.com
+- [Kodekloud.com](https://kodekloud.com)
 #### Linux & Open Source
 - [Itsfoss.com](https://itsfoss.com/)
 - [Linuxhandbook.com](https://linuxhandbook.com/)
