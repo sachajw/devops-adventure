@@ -24,7 +24,8 @@ memory=4GB
 # Sets the VM to use two virtual processors
 processors=2
 
-# Specify a custom Linux kernel to use with your installed distros. The default kernel used can be found at https://github.com/microsoft/WSL2-Linux-Kernel
+# Specify a custom Linux kernel to use with your installed distros.
+#The default kernel used can be found at https://github.com/microsoft/WSL2-Linux-Kernel
 #kernel=C:\\temp\\myCustomKernel
 
 # Sets additional kernel parameters, in this case enabling older Linux base images such as Centos 6
