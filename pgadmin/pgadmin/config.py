@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-##########################################################################   
+##########################################################################
 #
 # pgAdmin 4 - PostgreSQL Tools
 #
@@ -9,14 +9,14 @@
 #
 # config.py - Core application configuration settings
 #
-##########################################################################   
+##########################################################################
 
 import builtins
 import logging
 import os
 import sys
 
-# We need to include the root directory in sys.path to ensure that we can    
+# We need to include the root directory in sys.path to ensure that we can
 # find everything we need when running in the standalone runtime.
 root = os.path.dirname(os.path.realpath(__file__))
 if sys.path[0] != root:
@@ -24,20 +24,20 @@ if sys.path[0] != root:
 
 from pgadmin.utils import env, IS_WIN, fs_short_path
 
-##########################################################################   
+##########################################################################
 # Application settings
-##########################################################################   
+##########################################################################
 
 # Name of the application to display in the UI
 APP_NAME = 'pgAdmin 4'
 APP_ICON = 'pg-icon'
 
-##########################################################################   
+##########################################################################
 # Application settings
-##########################################################################   
+##########################################################################
 
 # NOTE!!!
-# If you change any of APP_RELEASE, APP_REVISION or APP_SUFFIX, then you     
+# If you change any of APP_RELEASE, APP_REVISION or APP_SUFFIX, then you
 # must also change APP_VERSION_INT to match.
 #
 
@@ -45,13 +45,13 @@ APP_ICON = 'pg-icon'
 APP_RELEASE = 6
 APP_REVISION = 7
 
-# Application version suffix, e.g. 'beta1', 'dev'. Usually an empty string   
+# Application version suffix, e.g. 'beta1', 'dev'. Usually an empty string
 # for GA releases.
 APP_SUFFIX = ''
 
-# Numeric application version for upgrade checks. Should be in the format:   
+# Numeric application version for upgrade checks. Should be in the format:
 # [X]XYYZZ, where X is the release version, Y is the revision, with a leading
-# zero if needed, and Z represents the suffix, with a leading zero if needed 
+# zero if needed, and Z represents the suffix, with a leading zero if needed
 APP_VERSION_INT = 60700
 
 # DO NOT CHANGE!
@@ -713,18 +713,6 @@ OAUTH2_CONFIG = [
         # 'OAUTH2_API_BASE_URL': 'https://api.github.com/',
         # # Name of the Endpoint, ex: user
         # 'OAUTH2_USERINFO_ENDPOINT': 'user',
-        'OAUTH2_NAME' : 'Github',
-        'OAUTH2_DISPLAY_NAME' : 'Allianz Github',
-        'OAUTH2_CLIENT_ID' : os.environ.get('OAUTH2_CLIENT_ID'),
-        'OAUTH2_CLIENT_SECRET' : os.environ.get('OAUTH2_CLIENT_SECRET'),
-        'OAUTH2_ALLOWED_TEAMS' : os.environ.get('OAUTH2_ALLOWED_TEAMS') if os.environ.get('OAUTH2_ALLOWED_TEAMS') else "absazp-devops",
-        'OAUTH2_TOKEN_URL' : 'https://github.developer.allianz.io/login/oauth/access_token',
-        'OAUTH2_AUTHORIZATION_URL' : 'https://github.developer.allianz.io/login/oauth/authorize',
-        'OAUTH2_API_BASE_URL' : 'https://github.developer.allianz.io/api/v3/',
-        'OAUTH2_USERINFO_ENDPOINT' : 'user',
-        'OAUTH2_TEAMSINFO_ENDPOINT' : 'user/teams',
-        'OAUTH2_ICON' : 'fa-github',
-        'OAUTH2_BUTTON_COLOR' :  '#038bba',
     }
 ]
 
@@ -836,4 +824,3 @@ if not SERVER_MODE:
     USER_INACTIVITY_TIMEOUT = 0
     # Enable PSQL in Desktop Mode.
     ENABLE_PSQL = True
-
