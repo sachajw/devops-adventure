@@ -1,4 +1,4 @@
-# --- Ortelius Adventure Material ---
+# --- Ortelius Adventure Map ---
 
 ## Disclaimer:
 - Please read the documentation for each subject
