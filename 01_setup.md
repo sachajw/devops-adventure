@@ -8,7 +8,7 @@
 ## Windows
 - `Windows 10` latest version & fully updated
 - Enable `WSL2` | Go to `Programs and features` --> `Turn Windows features on or off` --> `Windows Subsystem for Linux`
-- I recommend using a second disk if you have one in your machine to create the custom folder to house the VMDK
+- We recommend using a second disk if you have one in your machine to create the custom folder to house the VMDK
 - This splits up the I/O between the Windows OS and WSL2 which is just a stripped down virtual machine
 - Install Windows Terminal [here](https://docs.microsoft.com/en-us/windows/terminal/install) for easier management and get familiar with the documentation
 - Use this [documentation](https://www.windowscentral.com/how-install-ubuntu-2110-wsl-windows-10-and-11) to install the latest Ubuntu flavour, dont' bother with the Microsoft store
