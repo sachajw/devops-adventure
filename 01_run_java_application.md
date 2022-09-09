@@ -6,11 +6,11 @@
   - Linux environment as we will be going to use lot of command line stuff later.
    - You can also run it in eclipse or other code editor for demo purposes.
 
-**Software needed :**
-Java 
-Maven
-VS Code
- Linux in WSL2 
+**Software needed :**  
+Java   
+Maven  
+VS Code  
+Linux in WSL2   
 
 **Sample Application** 
 
