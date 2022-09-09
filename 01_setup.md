@@ -12,6 +12,7 @@
 - Use this [documentation](https://www.windowscentral.com/how-install-ubuntu-2110-wsl-windows-10-and-11) to install the latest Ubuntu flavour, dont' bother with the Microsoft store
 
 ## Configs for WSL
+#### Windows
 `c:\Users\Ortelius\.wslconfig`
 ```
 # Settings apply across all Linux distros running on WSL 2
@@ -56,7 +57,7 @@ options = "metadata"
 memory=4GB
 
 ```
-
+#### WSL Linux Virtual Machine
 `\etc\wsl.conf`
 ```
 # Automatically mount Windows drive when the distribution is launched
