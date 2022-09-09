@@ -1,4 +1,4 @@
-# --- Ortelius Course Material ---
+# --- Ortelius Adventure Material ---
 
 ## Disclaimer:
 - Please read the documentation for each subject
