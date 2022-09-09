@@ -1,0 +1,25 @@
+# Chart specific
+oauth_enabled: "False"
+oauth2_allowed_teams: "kubevisor-devops kubevisor-pgadmin-users"
+
+tadgeneric:
+  appName: pgadmin
+  capability: kubevisor
+  port: 8080
+  readinessProbe:
+    enabled: false
+  livenessProbe:
+    enabled: false
+  istio:
+    enabled:  true
+    rewrite_rules:
+    - name: pgadmin4
+      regex: /
+      rewrite: /pgadmin4
+  nginxIngress:
+    enabled: false
+  stages:
+    dev:
+      account: dev
+  configMapRef:
+  - github-oauth-switch

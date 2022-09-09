@@ -1,0 +1,18 @@
+{{- if .Values.persistanceStorage }}
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  labels:
+    app: {{ .Values.appName }}
+  name: "{{ .Values.capability }}-{{ .Values.appName }}-data"
+spec:
+  accessModes:
+    - {{ .Values.persistanceStorage.accessMode}}
+  {{- with .Values.persistanceStorage.pvName }}
+  volumeName: {{ . }}
+  {{- end }}
+  resources:
+    requests:
+      storage: {{ .Values.persistanceStorage.size}}
+{{ end }}

@@ -1,0 +1,11 @@
+apiVersion: v2
+name: kubevisor-pgadmin
+description: A Helm chart to deploy PgAdmin
+type: application
+version: 1.0.0
+
+dependencies:
+- name: tad-generic-microservice
+  version: 1.0.0
+  repository: "@generic"
+  alias: "tadgeneric"

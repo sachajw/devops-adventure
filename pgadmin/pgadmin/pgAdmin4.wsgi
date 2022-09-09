@@ -1,0 +1,45 @@
+##########################################################################
+#
+# pgAdmin 4 - PostgreSQL Tools
+#
+# Copyright (C) 2013 - 2021, The pgAdmin Development Team
+# This software is released under the PostgreSQL Licence
+#
+##########################################################################
+
+import os
+import sys
+
+if sys.version_info < (3, 4):
+    raise Exception('This application must be run under Python 3.4 or later.')
+
+import builtins
+
+root = os.path.dirname(os.path.realpath(__file__))
+if sys.path[0] != root:
+    sys.path.insert(0, root)
+
+# Ensure the global server mode is set.
+builtins.SERVER_MODE = True
+# Setting proxy for the cluster accordingly
+os.environ['https_proxy'] = 'http://proxyv2.apfr-acm-${cluster}.ec1.aws.aztec.cloud.allianz:8888'
+
+# Configuration source for Github Oauth
+os.environ['OAUTH2_CLIENT_ID'] = "${OAUTH2_CLIENT_ID}"
+os.environ['OAUTH2_CLIENT_SECRET'] = "${PGADMIN_SETUP_EMAIL}"
+os.environ['GITHUB_OAUTH_ENABLED'] = "${GITHUB_OAUTH_ENABLED}"
+os.environ['OAUTH2_ALLOWED_TEAMS'] = "${OAUTH2_ALLOWED_TEAMS}"
+os.environ['USER_INACTIVITY_TIMEOUT'] = "${USER_INACTIVITY_TIMEOUT}"
+
+import config
+
+# When running it as a WSGI application, directory for the configuration file
+# must present.
+if not os.path.exists(os.path.dirname(config.SQLITE_PATH)):
+    raise Exception(
+        """
+Required configuration file is not present!
+Please run setup.py first!"""
+    )
+
+from pgAdmin4 import app as application

@@ -1,0 +1,34 @@
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+    - export CODEARTIFACT_AUTH_TOKEN=`aws codeartifact get-authorization-token --domain $ARTIFACT_DOMAIN --domain-owner $ARTIFACT_ACCOUNT_ID --query authorizationToken --output text`
+    - export IMAGE_TAG=`date +%Y-%m-%d-%H%M`
+    - REPOSITORY_URI=$AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com
+    - echo Logging in to Amazon ECR... $REPOSITORY_URI
+    - aws ecr get-login-password --region $AWS_DEFAULT_REGION | docker login --username AWS --password-stdin $REPOSITORY_URI;
+  build:
+    on-failure: ABORT
+    commands:
+      - echo Build started on `date`
+      - echo Building the Docker image...
+      - cd $CODEBUILD_SRC_DIR
+      - docker build -t pgadmin .
+#      - docker build --build-arg IMAGE_TAG=$IMAGE_TAG -t $REPOSITORY_PATH/$IMAGE_REPO_NAME:$IMAGE_TAG .
+  post_build:
+    commands:
+      - echo Start post_build...
+      - echo Pushing the Docker image TAG $IMAGE_TAG...
+      - docker tag pgadmin:latest 054819306458.dkr.ecr.eu-central-1.amazonaws.com/pgadmin:latest
+#      - docker tag $REPOSITORY_PATH/$IMAGE_REPO_NAME:$IMAGE_TAG $REPOSITORY_URI/$REPOSITORY_PATH/$IMAGE_REPO_NAME:$IMAGE_TAG
+#      - docker push $REPOSITORY_URI/$REPOSITORY_PATH/$IMAGE_REPO_NAME:$IMAGE_TAG
+      - echo Tag docker image and push as latest
+      - docker push 054819306458.dkr.ecr.eu-central-1.amazonaws.com/pgadmin:latest
+#      - docker tag $REPOSITORY_PATH/$IMAGE_REPO_NAME:$IMAGE_TAG $REPOSITORY_URI/$REPOSITORY_PATH/$IMAGE_REPO_NAME:latest
+#      - docker push $REPOSITORY_URI/$REPOSITORY_PATH/$IMAGE_REPO_NAME:latest
+      - echo Writing image definitions file...
+      - printf '{"ImageURI":"%s"}' $REPOSITORY_URI/$REPOSITORY_PATH/$IMAGE_REPO_NAME:$IMAGE_TAG > imageDetail_$CODEBUILD_BUILD_NUMBER.json
+artifacts:
+  files:
+    - imageDetail.json

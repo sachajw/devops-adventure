@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: pgadmin-envvars
+data:
+  PGADMIN_DEFAULT_EMAIL: sacha.wharton@kubevisor.com
+  PGADMIN_DEFAULT_PASSWORD: adminpass123
+  GITHUB_OAUTH_ENABLED : 'False'
