@@ -3,7 +3,7 @@
 ## Disclaimer:
 - Please read and explore the documentation for each subject
 - This is a map to help you navigate what to learn in the spirit of [Ortelius](https://en.wikipedia.org/wiki/Abraham_Ortelius) and you are the explorer
-- Please help us make the map better
+- Please help us improve the map
 
 ## Organisations
 - [CNCF.io](https://www.cncf.io/)
