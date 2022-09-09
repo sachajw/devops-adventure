@@ -6,6 +6,9 @@
 - Think of it as a map to help you navigate what to learn in the spirit of [Ortelius](https://en.wikipedia.org/wiki/Abraham_Ortelius)
 - Please help us make the documentation better
 
+## Organisations
+- [CNCF.io](https://www.cncf.io/)
+
 ## Deploy and containerise
 - Springboot Java [Spring Petclinic](https://github.com/spring-projects/spring-petclinic)
 - Python Web UI to manage PostgreSQL [PgAdmin](https://www.pgadmin.org/)
@@ -13,16 +16,20 @@
 
 ## Jargon Glossary
 - API
+- Argo CD
 - Backend
 - Blast radius
 - Containers
 - Continous Integration
 - Continous Delivery
 - Data Science
+- Declarative
 - Event driven
 - Frontend
 - GitOps
 - Helm
+- Imperative
+- Keptn
 - Markdown
 - Machine Learning
 - Microservices
