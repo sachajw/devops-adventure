@@ -68,7 +68,7 @@
 - K8s is a production grade container orchestrater
 - K8s is the conductor of the orchestra where the conductor is K8s and the orchestra is the containers within PODs
 - PODS are cuddly safe worlds to hold containers (so cute)
-- Install Kubectl the command line tool [here](https://kubernetes.io/docs/tasks/tools/)
+- Install `Kubectl` the command line tool [here](https://kubernetes.io/docs/tasks/tools/)
 - Get familar with the basic commands
 - Use Devdocs and the documentation on the site
 
@@ -94,4 +94,4 @@
 - Documentation [here](https://docs.ortelius.io/guides/)
 - User guide [here](https://docs.ortelius.io/guides/userguide/)
 - Contributors guide [here](https://docs.ortelius.io/guides/contributorguide/)
-- Installation & Suport [here](https://docs.ortelius.io/guides/userguide/installation-and-support/)
+- Installation & Support [here](https://docs.ortelius.io/guides/userguide/installation-and-support/)
