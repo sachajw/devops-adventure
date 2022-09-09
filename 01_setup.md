@@ -56,7 +56,7 @@
 - [Docker registry](https://hub.docker.com/_/registry)
 - [GCP registry](https://cloud.google.com/container-registry)
 - [Azure registry](https://azure.microsoft.com/en-us/products/container-registry/)
-- [RedHat Quay registry](https://quay.io/)
+- [RedHat Quay registry](https://quay.io/) Ortelius uses Quay
 
 ## [Kind.sigs.k8s.io](https://kind.sigs.k8s.io/)
 - Kind allows you to use Docker to run K8s nodes as containers
