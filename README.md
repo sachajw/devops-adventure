@@ -1,10 +1,9 @@
 # --- Ortelius Adventure Map ---
 
 ## Disclaimer:
-- Please read the documentation for each subject
-- This documentation will be very summarised and expects you to go deeper
+- Please read and explore the documentation for each subject
 - This is a map to help you navigate what to learn in the spirit of [Ortelius](https://en.wikipedia.org/wiki/Abraham_Ortelius) and you are the explorer
-- Please help us make the documentation better
+- Please help us make the map better
 
 ## Organisations
 - [CNCF.io](https://www.cncf.io/)
