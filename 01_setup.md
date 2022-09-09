@@ -2,6 +2,7 @@
 ### Disclaimer:
 - Please read the documentation for each subject
 - This documentation will be very summarised and expects you to go deeper
+- Think of it as a map to help you navigate what to learn in the spirit of [Ortelius](https://en.wikipedia.org/wiki/Abraham_Ortelius)
 - Please help us make the documentation better
 
 # Starters
