@@ -121,7 +121,7 @@ command = service docker start
 ### SDKMan | For managing all things Java | SDKs | JDKs
 - [sdkman.io](https://sdkman.io/)
 - Usage [here](https://sdkman.io/usage)
-### Git Guardian(https://www.gitguardian.com/)
+### [Git Guardian.com](https://www.gitguardian.com/)
 - Set yourself up for free
 - This tool will warn you when you accidently put sensitive information on the public internet in your repos
 - Go to `VCS Integrations` and add your `GitHub`
