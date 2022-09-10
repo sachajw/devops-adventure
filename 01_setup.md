@@ -122,7 +122,7 @@ command = service docker start
 - `Bash, CSS, Docker, Flask, Git, Go, Brew, HTML, HTTP, Java, JavaScript, Markdown, Nginx, Nodejs, npm, Python, Kubectl, Kubernetes`
 ### [SDKMan.io | For managing all things Java | SDKs | JDKs](https://sdkman.io/) `Optional`
 - Usage [here](https://sdkman.io/usage)
-### [Discord](https://discord.com/)
+### [Discord.com](https://discord.com/)
 - Discord is global human interaction
 - Set yourself up with your very own `Discord server`
 - Create a dedicated channel for for `Git Guardian alerts`
