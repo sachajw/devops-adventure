@@ -1,4 +1,4 @@
-# --- Ortelius Adventure ---
+# --- Adventure with Abraham Ortelius ---
 
 ## Disclaimer:
 - Please read and explore the documentation for each subject
