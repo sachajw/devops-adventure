@@ -129,7 +129,7 @@ command = service docker start
 ### [Git Guardian.com](https://www.gitguardian.com/)
 - Set yourself up for free
 - This tool will warn you when you accidently put sensitive information on the public internet in your repos
-- Go to `VCS Integrations` and add your `GitHub`
+- Go to `VCS Integrations` and add your `GitHub` (You will need to set yourself up on [GitHub](https://github.com) first)
 - Go to `Alerting` and setup `Discord` notifications
 - Support for `CI|CD` pipelines such as `Azure, Bitbucket, Circle CI, Drone CI, GitHub Actions, GitLab, Jenkins & Travis`
 - Support for `Git Hooks`
