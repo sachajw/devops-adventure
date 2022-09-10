@@ -120,6 +120,10 @@ command = service docker start
 - Bash, CSS, Docker, Flask, Git, Go, Brew, HTML, HTTP, Java, JavaScript, Markdown, Nginx, Nodejs, npm, Python, Kubectl, Kubernetes
 ### [SDKMan.io | For managing all things Java | SDKs | JDKs](https://sdkman.io/)
 - Usage [here](https://sdkman.io/usage)
+### [Discord](https://discord.com/)
+- Discord is global human interaction
+- Set yourself up with your very own `Discord server`
+- `Do this before Git Guardian`
 ### [Git Guardian.com](https://www.gitguardian.com/)
 - Set yourself up for free
 - This tool will warn you when you accidently put sensitive information on the public internet in your repos
@@ -129,11 +133,6 @@ command = service docker start
 - Support for `Git Hooks`
 - Support for `Docker`
 - Alerting for `Discord, Custom Webhook, Jira, Pager Duty, Slack, Splunk`
-
-### [Discord](https://discord.com/)
-- Discord is global human interaction
-- Set yourself up with your very own Discord server
-- Configure a `Web Hook` between your `GitHub` and your private `Discord server`
 
 # Main Course
 ### Choose between Docker or Podman
