@@ -1,4 +1,4 @@
-# Fine dining with Ortelius
+# Fine dining with Abraham Ortelius
 
 ## Canapes
 
