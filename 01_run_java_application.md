@@ -24,7 +24,7 @@ Let’s clone the sample application that we’ll be using in this module to our
 **Java and Maven version**
 
 Its the version of maven and java I am using.
-<img style="border: 1px solid #1d2253" src="images/spring-petclinic/java-maven-version.png" />
+<img style="border: 1px solid #1d2253" src="images/spring-petclinic/java_maven_version.png" />
 
 **Steps to run application locally**
 
