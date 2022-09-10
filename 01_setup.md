@@ -137,6 +137,12 @@ command = service docker start
 - Get familiar with the basic commands
 - Use Devdocs and the documentation on the site
 
+**Docker Security**
+- We believe in baking in security right from the word go
+- We are going to use Snyk to scan our containers
+- Snyk is free and you can set yourself up [here](https://snyk.io/)
+- In `Docker Desktop` go to the ` Extensions Marketplace` and install the `Snyk Container Extension`
+
 ## [Podman.io](https://podman.io/)
 - [Podman-Desktop](https://podman-desktop.io/)
 - Get familiar with the basic commands
