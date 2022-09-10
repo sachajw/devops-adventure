@@ -110,7 +110,7 @@ command = service docker start
 - [Brew.sh](https://brew.sh/)
 
 # Starters
-### [Topgrade | Update everything with one command](https://github.com/r-darwish/topgrade)
+### [Topgrade | Update everything with one command](https://github.com/r-darwish/topgrade) **Optional**
 - [Topgrade Wiki](https://github.com/r-darwish/topgrade/wiki/Step-list)
 - Support all operating systems
 - Topgrade config file is here `.config/topgrade.toml`
