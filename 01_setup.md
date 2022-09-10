@@ -120,7 +120,7 @@ command = service docker start
 ### Devdocs | The online command encyclopedia & yes you can access it offline
 - [devdocs.io](https://devdocs.io/)
 - `Bash, CSS, Docker, Flask, Git, Go, Brew, HTML, HTTP, Java, JavaScript, Markdown, Nginx, Nodejs, npm, Python, Kubectl, Kubernetes`
-### [SDKMan.io | For managing all things Java | SDKs | JDKs](https://sdkman.io/)`Optional`
+### [SDKMan.io | For managing all things Java | SDKs | JDKs](https://sdkman.io/) `Optional`
 - Usage [here](https://sdkman.io/usage)
 ### [Discord](https://discord.com/)
 - Discord is global human interaction
