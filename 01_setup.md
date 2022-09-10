@@ -153,6 +153,7 @@ command = service docker start
 
 ### Source Control [GitHub.com](https://github.com/)
 - Set yourself up on GitHub
+- [Set-up-git](https://docs.github.com/en/get-started/quickstart/set-up-git)
 
 ### [VSCode](https://code.visualstudio.com/) IDE
 - Download the `VSCode IDE` [here](https://code.visualstudio.com/download)
