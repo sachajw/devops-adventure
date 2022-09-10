@@ -111,7 +111,9 @@ command = service docker start
 
 # Starters
 ### [Topgrade | Update everything with one command](https://github.com/r-darwish/topgrade)
+- [Topgrade Wiki](https://github.com/r-darwish/topgrade/wiki/Step-list)
 - Support all operating systems
+- Topgrade config file is here `.config/topgrade.toml`
 - All I need to type now on my [`zsh terminal`](https://ohmyz.sh/) is `topgrade`
 - It upgrades all my package managers including the packages, Mac store apps and Mac OS updates
 - It can do so much more | We will leave you to explore
