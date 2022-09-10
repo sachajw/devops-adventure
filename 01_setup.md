@@ -16,6 +16,7 @@
 - Line feed ending hell can be solved with [Dos2Unix](https://www.computerhope.com/unix/dos2unix.htm)
 - Windows uses CRLF
 - Linux uses LF
+- This [Stackoverflow article](https://stackoverflow.com/questions/2920416/configure-bin-shm-bad-interpreter) can help you understand whats going on
 - Example error `/bin/sh^M:bad interpreter`
 
 ## Configs for WSL
