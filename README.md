@@ -9,9 +9,13 @@
 - [CNCF.io](https://www.cncf.io/)
 
 ## Deploy and containerise
-- Springboot Java [Spring Petclinic](https://github.com/spring-projects/spring-petclinic)
-- Python Web UI to manage PostgreSQL [PgAdmin](https://www.pgadmin.org/)
-- PostgreSQL Container can be pulled from [here](https://hub.docker.com/_/postgres/)
+### Springboot Java [Spring Petclinic](https://github.com/spring-projects/spring-petclinic)
+- `PLEASE READ the README`
+- [Spring Petclinic Slides](https://speakerdeck.com/michaelisvy/spring-petclinic-sample-application)
+
+### Python Web UI to manage PostgreSQL [PgAdmin](https://www.pgadmin.org/)
+
+### PostgreSQL Container can be pulled from [here](https://hub.docker.com/_/postgres/)
 
 ## Jargon Glossary
 - API
