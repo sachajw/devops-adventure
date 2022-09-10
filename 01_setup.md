@@ -131,6 +131,10 @@ command = service docker start
 - Get familiar with the basic commands such as pushing and pulling of changes and creating branches
 - Use Devdocs and the documentation on the site
 
+## [VSCode](https://code.visualstudio.com/) IDE
+- Download the `VSCode IDE` [here](https://code.visualstudio.com/download)
+-
+
 ## [Docker.com](https://www.docker.com/)
 - [Account setup](https://hub.docker.com/signup)
 - [Install](https://docs.docker.com/get-docker/)
