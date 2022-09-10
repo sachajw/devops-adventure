@@ -131,7 +131,7 @@ command = service docker start
 - Go to `Alerting` and setup `Discord` notifications
 - Support for `CI|CD` pipelines such as `Azure, Bitbucket, Circle CI, Drone CI, GitHub Actions, GitLab, Jenkins & Travis`
 - Support for `Git Hooks`
-- Support for `Docker`
+- Support for `Docker` | [Docker image integration](https://docs.gitguardian.com/internal-repositories-monitoring/integrations/docker/docker_image)
 - Alerting for `Discord, Custom Webhook, Jira, Pager Duty, Slack, Splunk`
 
 # Main Course
