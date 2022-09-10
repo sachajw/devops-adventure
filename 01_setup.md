@@ -163,7 +163,7 @@ command = service docker start
 - [Account setup](https://hub.docker.com/signup)
 - [Install](https://docs.docker.com/get-docker/)
 - Get familiar with the basic commands
-- Use Devdocs and the documentation on the site
+- Use [Devdocs](https://devdocs.io/) and the documentation on the site
 
 **Docker Security**
 - Bake security right in from the word go
@@ -199,7 +199,7 @@ command = service docker start
 - PODS are cuddly safe worlds to hold containers (so cute)
 - Install `Kubectl` the command line tool [here](https://kubernetes.io/docs/tasks/tools/)
 - Get familar with the basic commands
-- Use Devdocs and the documentation on the site
+- Use [Devdocs](https://devdocs.io/) and the documentation on the site
 
 ### [PostgreSQL.org](https://www.postgresql.org/)
 - Open Source relational database
