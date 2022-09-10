@@ -192,7 +192,7 @@ command = service docker start
 - Kind allows you to use Docker to run K8s nodes as containers
 - Install [here](https://kind.sigs.k8s.io/docs/user/quick-start/#installation)
 - Get familiar with the basic commands
-- Checkout the documentation on the site
+- Checkout the Kind documentation [here](https://kind.sigs.k8s.io/docs/user/quick-start/)
 
 ### [Kubernetes.io](https://kubernetes.io/)
 - K8s is a production grade container orchestrater
