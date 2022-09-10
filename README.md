@@ -42,11 +42,10 @@
 - Parameterisation
 - PODs
 
-## Resources
-#### Learning platforms
+## Learning platforms
 - [Udemy.com](https://udemy.com)
 - [Kodekloud.com](https://kodekloud.com)
-#### Linux & Open Source
+## Linux & Open Source
 - [Itsfoss.com](https://itsfoss.com/)
 - [Linuxhandbook.com](https://linuxhandbook.com/)
 - [CompTIA Linux on Udemy](https://www.udemy.com/share/1076RM3@wyBekn7-PidnmF_CeNvkQeJjSzd9_9rNkxjrWFaI2hA7e6fQJEnkmWbazI66eyHT/)
