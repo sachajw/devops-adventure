@@ -152,6 +152,7 @@ command = service docker start
 - Snyk is free and you can set yourself up [here](https://snyk.io/)
 - In `Docker Desktop` go to the ` Extensions Marketplace` and install the `Snyk Container Extension`
 - On your command line you can now scan your Docker images with `docker scan your-docker-image`
+- Disclaimer: Please follow any prompts `Snyk` requires you to fulfill to get up and running
 
 ## [Podman.io](https://podman.io/)
 - [Podman-Desktop](https://podman-desktop.io/)
