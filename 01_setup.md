@@ -169,7 +169,7 @@ command = service docker start
 - [Account setup](https://hub.docker.com/signup)
 - [Install](https://docs.docker.com/get-docker/)
 - Get familiar with the basic commands
-- Use [Devdocs](https://devdocs.io/) and the documentation on the site
+- Use [Devdocs](https://devdocs.io/) and the Docker documentation [here](https://docs.docker.com/)
 
 **Docker Security**
 - Bake security right in from the word go
