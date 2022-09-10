@@ -118,8 +118,7 @@ command = service docker start
 ### Devdocs | The online command encyclopedia & yes you can access it offline
 - [devdocs.io](https://devdocs.io/)
 - Bash, CSS, Docker, Flask, Git, Go, Brew, HTML, HTTP, Java, JavaScript, Markdown, Nginx, Nodejs, npm, Python, Kubectl, Kubernetes
-### SDKMan | For managing all things Java | SDKs | JDKs
-- [sdkman.io](https://sdkman.io/)
+### [SDKMan.io | For managing all things Java | SDKs | JDKs](https://sdkman.io/)
 - Usage [here](https://sdkman.io/usage)
 ### [Git Guardian.com](https://www.gitguardian.com/)
 - Set yourself up for free
