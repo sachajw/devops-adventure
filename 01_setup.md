@@ -117,16 +117,20 @@ command = service docker start
 - All I need to type now on my [`zsh terminal`](https://ohmyz.sh/) is `topgrade`
 - It upgrades all my package managers including the packages, Mac store apps and Mac OS updates
 - It can do so much more | We will leave you to explore
-### Devdocs | The online command encyclopedia & yes you can access it offline
-- [devdocs.io](https://devdocs.io/)
+
+### [Devdocs.io | The online command encyclopedia & yes you can access it offline](https://devdocs.io/)
 - `Bash, CSS, Docker, Flask, Git, Go, Brew, HTML, HTTP, Java, JavaScript, Markdown, Nginx, Nodejs, npm, Python, Kubectl, Kubernetes`
+- And so much more
+
 ### [SDKMan.io | For managing all things Java | SDKs | JDKs](https://sdkman.io/) `Optional`
 - Usage [here](https://sdkman.io/usage)
+
 ### [Discord.com](https://discord.com/)
 - Discord is global human interaction
 - Set yourself up with your very own `Discord server`
 - Create a dedicated channel for for `Git Guardian alerts`
 - `Do this before Git Guardian`
+
 ### [Git Guardian.com](https://www.gitguardian.com/)
 - Set yourself up for free
 - This tool will warn you when you accidently put sensitive information on the public internet in your repos
