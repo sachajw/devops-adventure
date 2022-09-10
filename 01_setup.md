@@ -107,6 +107,10 @@ command = service docker start
 - [Brew.sh](https://brew.sh/)
 
 ## Useful resources
+### [Topgrade | Update everything with one command](https://github.com/r-darwish/topgrade)
+- All I need to type now on my [`zsh terminal`](https://ohmyz.sh/) is `topgrade`
+- It upgrades all my package managers including the packages, Mac store apps and Mac OS updates
+- It can do so much more | We will leave you to explore
 ### Devdocs | The online command encyclopedia & yes you can access it offline
 - [devdocs.io](https://devdocs.io/)
 - Bash, CSS, Docker, Flask, Git, Go, Brew, HTML, HTTP, Java, JavaScript, Markdown, Nginx, Nodejs, npm, Python, Kubectl, Kubernetes
