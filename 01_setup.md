@@ -133,7 +133,12 @@ command = service docker start
 
 ## [VSCode](https://code.visualstudio.com/) IDE
 - Download the `VSCode IDE` [here](https://code.visualstudio.com/download)
--
+
+**Extensions**
+- Install `Snyk Security | Code & Open Source Dependencies` scanner [here](https://marketplace.visualstudio.com/items?itemName=snyk-security.snyk-vulnerability-scanner)
+- Install `Language Support for Java by Red Hat` [here](https://marketplace.visualstudio.com/items?itemName=redhat.java)
+- Install `Yaml` support [here](https://marketplace.visualstudio.com/items?itemName=redhat.java)
+- Install `Indent Rainbow` [here](https://marketplace.visualstudio.com/items?itemName=redhat.java)
 
 ## [Docker.com](https://www.docker.com/)
 - [Account setup](https://hub.docker.com/signup)
