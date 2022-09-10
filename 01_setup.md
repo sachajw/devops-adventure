@@ -1,4 +1,4 @@
-# Fine Dining with Ortelius
+# Fine dining with Ortelius
 
 ## Canapes
 

@@ -2,7 +2,7 @@
 
 ## Disclaimer:
 - Please read and explore the documentation for each subject
-- This is a map to help you navigate what to learn in the spirit of [Ortelius](https://en.wikipedia.org/wiki/Abraham_Ortelius) and you are the explorer
+- This is a map to help you navigate what to learn in the spirit of [Abraham Ortelius](https://en.wikipedia.org/wiki/Abraham_Ortelius)
 - Please help us improve the map
 
 ## Organisations
@@ -10,7 +10,7 @@
 
 ## Deploy and containerise
 ### Springboot Java [Spring Petclinic](https://github.com/spring-projects/spring-petclinic)
-- `PLEASE READ the README`
+- `PLEASE READ the README` you will save yourself a lot of pain
 - [Spring Petclinic Slides](https://speakerdeck.com/michaelisvy/spring-petclinic-sample-application)
 
 ### Python Web UI to manage PostgreSQL [PgAdmin](https://www.pgadmin.org/)
