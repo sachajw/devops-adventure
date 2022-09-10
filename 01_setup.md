@@ -1,7 +1,7 @@
 # Fine Dining with Ortelius
 
-##
- Starters
+## Starters
+
 ## What are we building?
 - We are building [this](https://filedn.eu/lJEPcSQWQQPRsWJKijxnXCQ/ortelius/gitops/01-ci-dev-ortelius-cloudnative-architecture-poc.html)
 
