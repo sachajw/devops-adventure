@@ -111,9 +111,9 @@ command = service docker start
 
 ## Useful resources
 ### [Topgrade | Update everything with one command](https://github.com/r-darwish/topgrade)
-- Support all operating systesm
+- Support all operating systems
 - All I need to type now on my [`zsh terminal`](https://ohmyz.sh/) is `topgrade`
-- It upgrades all my package managers including the packages, Mac store apps and Mac OS updates
+- It upgrades all myz package managers including the packages, Mac store apps and Mac OS updates
 - It can do so much more | We will leave you to explore
 ### Devdocs | The online command encyclopedia & yes you can access it offline
 - [devdocs.io](https://devdocs.io/)
