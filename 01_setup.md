@@ -166,7 +166,7 @@ command = service docker start
 - Use Devdocs and the documentation on the site
 
 **Docker Security**
-- Bake security right from the word go
+- Bake security right in from the word go
 - We are going to use Snyk to scan our containers
 - Snyk is free and you can set yourself up [here](https://snyk.io/)
 - In `Docker Desktop` go to the ` Extensions Marketplace` and install the `Snyk Container Extension`
