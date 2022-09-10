@@ -18,7 +18,7 @@
 - Linux uses LF
 - This [Stackoverflow article](https://stackoverflow.com/questions/2920416/configure-bin-shm-bad-interpreter) can help you understand whats going on
 - Example error `/bin/sh^M:bad interpreter`
-- We can recommend to set your `VSCode` to `LF` and only use `WSL` to do all your work
+- Suggestion Alert: Set your `VSCode` to `LF` and only use `WSL` to do all your work
 
 ## Configs for WSL
 #### Windows
