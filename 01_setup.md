@@ -125,12 +125,16 @@ command = service docker start
 - Set yourself up for free
 - This tool will warn you when you accidently put sensitive information on the public internet in your repos
 - Go to `VCS Integrations` and add your `GitHub`
-- There is support for `CI|CD` pipelines such as `Azure, Bitbucket, Circle CI, Drone CI, GitHub Actions, GitLab, Jenkins & Travis`
+- Go to `Alerting` and setup `Discord` notifications
+- Support for `CI|CD` pipelines such as `Azure, Bitbucket, Circle CI, Drone CI, GitHub Actions, GitLab, Jenkins & Travis`
+- Support for `Git Hooks`
+- Support for `Docker`
+- Alerting for `Discord, Custom Webhook, Jira, Pager Duty, Slack, Splunk`
 
 ### [Discord](https://discord.com/)
 - Discord is global human interaction
 - Set yourself up with your very own Discord server
-- Configure a `Web Hook`
+- Configure a `Web Hook` between your `GitHub` and your private `Discord server`
 
 # Main Course
 ### Choose between Docker or Podman
