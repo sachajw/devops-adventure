@@ -1,12 +1,12 @@
 # Fine Dining with Ortelius
 
-## Starters
+## Canapes
 
-## What are we building?
+### What are we building?
 - We are building [this](https://filedn.eu/lJEPcSQWQQPRsWJKijxnXCQ/ortelius/gitops/01-ci-dev-ortelius-cloudnative-architecture-poc.html)
 
-# Operating Systems
-## Windows
+## Operating Systems
+### Windows
 - `Windows 10` latest version & fully updated
 - Enable `WSL2` | Go to `Programs and features` --> `Turn Windows features on or off` --> `Windows Subsystem for Linux`
 - We recommend using a second disk if you have one in your machine to create the custom folder to house the VMDK
@@ -109,7 +109,7 @@ command = service docker start
 - [Macports.org](https://www.macports.org/)
 - [Brew.sh](https://brew.sh/)
 
-## Useful resources
+# Starters
 ### [Topgrade | Update everything with one command](https://github.com/r-darwish/topgrade)
 - Support all operating systems
 - All I need to type now on my [`zsh terminal`](https://ohmyz.sh/) is `topgrade`
@@ -121,17 +121,25 @@ command = service docker start
 ### SDKMan | For managing all things Java | SDKs | JDKs
 - [sdkman.io](https://sdkman.io/)
 - Usage [here](https://sdkman.io/usage)
+### [Discord](https://discord.com/)
+- Discord is a brilliant chat communication tool and so much more
+- Set yourself up with your very own Discord server
+- Con
 
 # Main Course
-## Choose between Docker or Podman
+### Choose between Docker or Podman
 - [Read this article to gain a holistic understanding of PodMan vs Docker](https://www.lambdatest.com/blog/podman-vs-docker/)
 
-## [Git-scm.com](https://git-scm.com/)
+### [Git-scm.com](https://git-scm.com/)
 - Install Git for all things source control
 - Get familiar with the basic commands such as pushing and pulling of changes and creating branches
 - Use Devdocs and the documentation on the site
 
-## [VSCode](https://code.visualstudio.com/) IDE
+### Source Control [GitHub.com](https://github.com/)
+- We will use GitHub
+
+
+### [VSCode](https://code.visualstudio.com/) IDE
 - Download the `VSCode IDE` [here](https://code.visualstudio.com/download)
 
 **Extensions**
@@ -140,7 +148,7 @@ command = service docker start
 - Install `Yaml` support [here](https://marketplace.visualstudio.com/items?itemName=redhat.java)
 - Install `Indent Rainbow` [here](https://marketplace.visualstudio.com/items?itemName=redhat.java)
 
-## [Docker.com](https://www.docker.com/)
+### [Docker.com](https://www.docker.com/)
 - [Account setup](https://hub.docker.com/signup)
 - [Install](https://docs.docker.com/get-docker/)
 - Get familiar with the basic commands
@@ -154,12 +162,12 @@ command = service docker start
 - On your command line you can now scan your Docker images with `docker scan your-docker-image`
 - Disclaimer: Please follow any prompts `Snyk` requires you to fulfill to get up and running
 
-## [Podman.io](https://podman.io/)
+### [Podman.io](https://podman.io/)
 - [Podman-Desktop](https://podman-desktop.io/)
 - Get familiar with the basic commands
 - Checkout the documentation on the site
 
-## Container Registries
+### Container Registries
 - Think of container registries as huge parking lots for containers
 - Container images can be pushed and pulled from these locations
 - [AWS registry](https://gallery.ecr.aws/)
@@ -168,13 +176,13 @@ command = service docker start
 - [Azure registry](https://azure.microsoft.com/en-us/products/container-registry/)
 - [RedHat Quay registry](https://quay.io/) Ortelius uses Quay
 
-## [Kind.sigs.k8s.io](https://kind.sigs.k8s.io/)
+### [Kind.sigs.k8s.io](https://kind.sigs.k8s.io/)
 - Kind allows you to use Docker to run K8s nodes as containers
 - Install [here](https://kind.sigs.k8s.io/docs/user/quick-start/#installation)
 - Get familiar with the basic commands
 - Checkout the documentation on the site
 
-## [Kubernetes.io](https://kubernetes.io/)
+### [Kubernetes.io](https://kubernetes.io/)
 - K8s is a production grade container orchestrater
 - K8s is the conductor of the orchestra where the conductor is K8s and the orchestra is the containers within PODs
 - PODS are cuddly safe worlds to hold containers (so cute)
@@ -182,25 +190,25 @@ command = service docker start
 - Get familar with the basic commands
 - Use Devdocs and the documentation on the site
 
-## [PostgreSQL.org](https://www.postgresql.org/)
+### [PostgreSQL.org](https://www.postgresql.org/)
 - Open Source relational database
 
 # Dessert
-## [Keptn.sh](https://keptn.sh/)
+### [Keptn.sh](https://keptn.sh/)
 - Cloud native application life-cycle orchestration
 - API & event driven
 - Install [here](https://keptn.sh/docs/quickstart/)
 
-## [Helm.sh](https://helm.sh/)
+### [Helm.sh](https://helm.sh/)
 - Install Helm for your operating system (Scroll down until you see `Get Helm!`)
 - K8s templating engine
 
-## [Argo-CD.readthedocs.io](https://argo-cd.readthedocs.io/en/stable/#:~:text=Argo%20CD%20is%20implemented%20as,target%20state%20is%20considered%20OutOfSync%20.)
+### [Argo-CD.readthedocs.io](https://argo-cd.readthedocs.io/en/stable/#:~:text=Argo%20CD%20is%20implemented%20as,target%20state%20is%20considered%20OutOfSync%20.)
 - Argo CD is a declarative, GitOps continous delivery tool for Kubernetes
 - For example it allows you to abstract the application configuration out of the developer code
 - Install [here](https://argo-cd.readthedocs.io/en/stable/getting_started/)
 
-## [Ortelius.io](https://ortelius.io/)
+### [Ortelius.io](https://ortelius.io/)
 - Documentation [here](https://docs.ortelius.io/guides/)
 - User guide [here](https://docs.ortelius.io/guides/userguide/)
 - Contributors guide [here](https://docs.ortelius.io/guides/contributorguide/)
