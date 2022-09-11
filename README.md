@@ -35,7 +35,8 @@
 
 ### Python Web UI to manage PostgreSQL [PgAdmin](https://www.pgadmin.org/)
 
-### PostgreSQL Container can be pulled from [here](https://hub.docker.com/_/postgres/)
+### PostgreSQL
+- Container can be pulled from [here](https://hub.docker.com/_/postgres/)
 
 ## Jargon Glossary
 - API
