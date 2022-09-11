@@ -3,7 +3,14 @@
 ## Canapes
 
 ### What are we learning?
-- We are learning to abstract application parameterisation from application code to serve our developers better and ease their pain
+- To build applications with build tools
+- Containerisation with Docker or Podman
+- PostgreSQL
+- K8s
+- Build pipelines
+- Ortelius
+- Cloud
+- To abstract application configuration `(parameterisation)` from application code to serve our developers better and ease their pain
 
 ### What are we building?
 - We are building [this](https://filedn.eu/lJEPcSQWQQPRsWJKijxnXCQ/ortelius/gitops/01-ci-dev-ortelius-cloudnative-architecture-poc.html)
