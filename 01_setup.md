@@ -1,7 +1,5 @@
 # Fine dining with Abraham Ortelius
-
 ## Canapes
-
 ## Operating Systems
 ### Windows
 - `Windows 10` latest version & fully updated
@@ -19,7 +17,7 @@
 - Suggestion Alert: Set your `VSCode` to `LF` and only use `WSL2` to do all your work
 
 ## Configs for WSL
-#### Windows
+#### Windows Operating System
 `c:\Users\Ortelius\.wslconfig`
 ```
 # Settings apply across all Linux distros running on WSL 2
@@ -65,7 +63,7 @@ options = "metadata"
 memory=4GB
 
 ```
-#### WSL Linux Virtual Machine
+#### WSL Ubuntu Jammy JellyFish Linux Virtual Machine
 `\etc\wsl.conf`
 ```
 # Automatically mount Windows drive when the distribution is launched
