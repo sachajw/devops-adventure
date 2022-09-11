@@ -158,6 +158,12 @@ command = service docker start
 - Support for `Docker` | [Docker image integration](https://docs.gitguardian.com/internal-repositories-monitoring/integrations/docker/docker_image)
 - Alerting for `Discord, Custom Webhook, Jira, Pager Duty, Slack, Splunk`
 
+### [YADM.io](https://yadm.io/)
+- In Linux you end up with a lot of config files which usually start with `.`
+- The dot files have configurations for various application packages install on your machine
+- YADM allows you to keep the dot files of your choice backed up to a repository
+- Documentation [here](https://github.com/TheLocehiliosan/yadm/blob/master/yadm.md)
+
 # Main Course
 ### Choose between Docker or Podman
 - [Read this article to gain a holistic understanding of PodMan vs Docker](https://www.lambdatest.com/blog/podman-vs-docker/)
