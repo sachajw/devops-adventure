@@ -135,7 +135,7 @@ command = service docker start
 - It upgrades all my package managers including the packages, Mac store apps and Mac OS updates
 - It can do so much more | We will leave you to explore
 
-### [Devdocs.io | The online command encyclopedia & yes you can access it offline](https://devdocs.io/)
+### [Devdocs.io | The application command encyclopedia & yes you can access it offline](https://devdocs.io/)
 - `Bash, CSS, Docker, Flask, Git, Go, Brew, HTML, HTTP, Java, JavaScript, Markdown, Nginx, Nodejs, npm, Python, Kubectl, Kubernetes`
 - And so much more
 
