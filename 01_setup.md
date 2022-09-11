@@ -314,3 +314,4 @@ brk = "!f() { git cap \"‼️ BREAKING: $@\"; }; f"
 - User guide [here](https://docs.ortelius.io/guides/userguide/)
 - Contributors guide [here](https://docs.ortelius.io/guides/contributorguide/)
 - Installation & Support [here](https://docs.ortelius.io/guides/userguide/installation-and-support/)
+- On-prem installation [here](On-Prem Installation)
