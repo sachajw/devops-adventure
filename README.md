@@ -33,6 +33,8 @@
 - [Spring Boot Maven Plugin Documentation](https://docs.spring.io/spring-boot/docs/current/maven-plugin/reference/htmlsingle/#goals-build-image)
 - [Spring Boot Docker Documentation](https://spring.io/guides/topicals/spring-boot-docker/)
 - [Spring Boot External Config](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#features.external-config)
+- [mkyong.com](https://mkyong.com/) is a useful Java resource
+- [mvn repository for dependencies](https://mvnrepository.com/)
 
 ### Python Web UI to manage PostgreSQL [PgAdmin](https://www.pgadmin.org/)
 
