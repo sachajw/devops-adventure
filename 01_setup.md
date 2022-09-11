@@ -158,7 +158,7 @@ command = service docker start
 - Support for `Docker` | [Docker image integration](https://docs.gitguardian.com/internal-repositories-monitoring/integrations/docker/docker_image)
 - Alerting for `Discord, Custom Webhook, Jira, Pager Duty, Slack, Splunk`
 
-### [YADM.io](https://yadm.io/) Yet Another Dot File Manager
+### [YADM.io](https://yadm.io/) Yet Another Dot File Manager `Optional`
 - In Linux you end up with a lot of config files which usually start with `.`
 - The dot files have configurations for various application packages installed on your machine
 - YADM allows you to keep the dot files of your choice backed up to a repository
