@@ -224,7 +224,7 @@ brk = "!f() { git cap \"‼️ BREAKING: $@\"; }; f"
 - Download the `VSCode IDE` [here](https://code.visualstudio.com/download)
 - Security starts in the IDE
 
-**Extensions**
+**Helpful Extensions**
 - Install `Snyk Security | Code & Open Source Dependencies` scanner [here](https://marketplace.visualstudio.com/items?itemName=snyk-security.snyk-vulnerability-scanner)
 - Install `Language Support for Java by Red Hat` [here](https://marketplace.visualstudio.com/items?itemName=redhat.java)
 - Install `Yaml` support [here](https://marketplace.visualstudio.com/items?itemName=redhat.java)
