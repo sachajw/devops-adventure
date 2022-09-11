@@ -8,12 +8,11 @@
 - This splits up the I/O between the Windows OS and WSL2 which is just a stripped down virtual machine
 - Install Windows Terminal [here](https://docs.microsoft.com/en-us/windows/terminal/install) for easier management and get familiar with the documentation
 - Use this [documentation](https://www.windowscentral.com/how-install-ubuntu-2110-wsl-windows-10-and-11) to install the latest `Ubuntu` flavour, don't bother with the Microsoft store ( We recommend `Ubuntu Jammy JellyFish` at this time of writing)
-- Line feed ending hell can be solved with [Dos2Unix](https://www.computerhope.com/unix/dos2unix.htm)
+- Line feed ending hell can be solved with this VSCode extension [here](https://marketplace.visualstudio.com/items?itemName=vs-publisher-1448185.keyoti-changeallendoflinesequence) or [Dos2Unix](https://www.computerhope.com/unix/dos2unix.htm) as another option
 - Windows uses CRLF
 - Linux uses LF
 - This [Stackoverflow article](https://stackoverflow.com/questions/2920416/configure-bin-shm-bad-interpreter) can help you understand whats going on
 - Example error `/bin/sh^M:bad interpreter`
-- VSCode extension to fix this headache [here](https://marketplace.visualstudio.com/items?itemName=vs-publisher-1448185.keyoti-changeallendoflinesequence)
 - Suggestion Alert: Set your `VSCode` to `LF` and only use `WSL2` to do all your work
 
 ## Configs for WSL
