@@ -63,7 +63,7 @@ options = "metadata"
 memory=4GB
 
 ```
-#### WSL Ubuntu Jammy JellyFish Linux Virtual Machine
+#### WSL Ubuntu Linux Virtual Machine
 `\etc\wsl.conf`
 ```
 # Automatically mount Windows drive when the distribution is launched
