@@ -177,7 +177,7 @@ command = service docker start
 `.gitconfig` inspiration
 ```
 [core]
-	excludesfile = /Users/tvl/.gitignore_global
+	excludesfile = /Users/abraham/.gitignore_global
 [alias]
 # Make sure you're adding under the [alias] block.
 # Git Commit, Add all and Push — in one step.
@@ -207,7 +207,7 @@ brk = "!f() { git cap \"‼️ BREAKING: $@\"; }; f"
         logallrefupdates = false
 [init]
   defaultBranch = main
-	templatedir = /Users/tvl/.git_template
+	templatedir = /Users/abraham/.git_template
 [pull]
 	rebase = false
 [credential "https://github.com"]
