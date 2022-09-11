@@ -279,10 +279,13 @@ brk = "!f() { git cap \"‼️ BREAKING: $@\"; }; f"
 - Open Source relational database
 
 # Dessert
-### [Keptn.sh](https://keptn.sh/)
-- Cloud native application life-cycle orchestration
-- API & event driven
-- Install [here](https://keptn.sh/docs/quickstart/)
+### [Ortelius.io](https://ortelius.io/)
+- Documentation [here](https://docs.ortelius.io/guides/)
+- User guide [here](https://docs.ortelius.io/guides/userguide/)
+- Contributors guide [here](https://docs.ortelius.io/guides/contributorguide/)
+- Installation & Support [here](https://docs.ortelius.io/guides/userguide/installation-and-support/)
+- On-prem installation [here](https://docs.ortelius.io/guides/userguide/installation-and-support/0-on-premise-installation-for-pro/)
+- Istio installation [here](https://docs.ortelius.io/guides/userguide/installation-and-support/1-istio-installation-and-usage/)
 
 ### [Helm.sh](https://helm.sh/)
 - Install Helm for your operating system (Scroll down until you see `Get Helm!`)
@@ -293,10 +296,7 @@ brk = "!f() { git cap \"‼️ BREAKING: $@\"; }; f"
 - For example it allows you to abstract the application configuration out of the developer code
 - Install [here](https://argo-cd.readthedocs.io/en/stable/getting_started/)
 
-### [Ortelius.io](https://ortelius.io/)
-- Documentation [here](https://docs.ortelius.io/guides/)
-- User guide [here](https://docs.ortelius.io/guides/userguide/)
-- Contributors guide [here](https://docs.ortelius.io/guides/contributorguide/)
-- Installation & Support [here](https://docs.ortelius.io/guides/userguide/installation-and-support/)
-- On-prem installation [here](https://docs.ortelius.io/guides/userguide/installation-and-support/0-on-premise-installation-for-pro/)
-- Istio installation [here](https://docs.ortelius.io/guides/userguide/installation-and-support/1-istio-installation-and-usage/)
+### [Keptn.sh](https://keptn.sh/)
+- Cloud native application life-cycle orchestration
+- API & event driven
+- Install [here](https://keptn.sh/docs/quickstart/)
