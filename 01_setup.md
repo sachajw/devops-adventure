@@ -3,7 +3,7 @@
 ## Canapes
 
 ### What are we learning?
-- To build applications with build tools
+- To build applications with [build tools](https://www.plutora.com/ci-cd-tools/software-build-tools) such as `Maven` or `Gradle`
 - Containerisation with Docker or Podman
 - PostgreSQL
 - K8s
