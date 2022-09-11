@@ -6,7 +6,8 @@
 - Please help us improve the map
 
 ## Organisations
-- [CNCF.io](https://www.cncf.io/)
+- [CNCF](https://www.cncf.io/)
+- [CNCF Cloud Native Landscape](https://landscape.cncf.io/)
 
 ### What are we learning?
 - To build applications with [build tools](https://www.plutora.com/ci-cd-tools/software-build-tools) such as `Maven` or `Gradle`
