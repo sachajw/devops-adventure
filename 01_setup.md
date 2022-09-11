@@ -18,7 +18,7 @@
 
 ## Configs for WSL
 #### Windows Operating System
-`c:\Users\Ortelius\.wslconfig`
+`c:\Users\Abraham\.wslconfig`
 ```
 # Settings apply across all Linux distros running on WSL 2
 [wsl2]
