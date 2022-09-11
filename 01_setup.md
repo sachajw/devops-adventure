@@ -168,6 +168,64 @@ command = service docker start
 - Please refer to the [Ortelius PR Cheat Sheet](https://docs.ortelius.io/guides/contributorguide/pull-request-cheat-sheet/)
 - Use Devdocs and the documentation on the site for further exploring
 
+`.gitconfig` inspiration
+```
+[core]
+	excludesfile = /Users/tvl/.gitignore_global
+[alias]
+# Make sure you're adding under the [alias] block.
+# Git Commit, Add all and Push — in one step.
+# Using functions in Git
+cap = "!f() { git add .; git commit -m \"$@\"; git push; }; f"
+# NEW.
+new = "!f() { git cap \"📦 NEW: $@\"; }; f"
+# IMPROVE.
+imp = "!f() { git cap \"👌 IMPROVE: $@\"; }; f"
+# FIX.
+fix = "!f() { git cap \"🐛 FIX: $@\"; }; f"
+# RELEASE.
+rlz = "!f() { git cap \"🚀 RELEASE: $@\"; }; f"
+# DOC.
+doc = "!f() { git cap \"📖 DOC: $@\"; }; f"
+# TEST.
+tst = "!f() { git cap \"🤖 TEST: $@\"; }; f"
+# BREAKING CHANGE.
+brk = "!f() { git cap \"‼️ BREAKING: $@\"; }; f"
+[user "https://github.com"]
+	name = Abraham Ortelius
+	email = abraham.ortelius@ortelius.io
+[core]
+	repositoryformatversion = 0
+        filemode = false
+        bare = false
+        logallrefupdates = false
+[init]
+  defaultBranch = main
+	templatedir = /Users/tvl/.git_template
+[pull]
+	rebase = false
+[credential "https://github.com"]
+	helper = store
+[credential "https://gist.github.com"]
+	helper = store
+[help]
+	autocorrect = 1
+[advice]
+	addIgnoredFile = false
+[user]
+	name = Abraham Ortelius
+	email = abraham.ortelius@ortelious.io
+
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[web]
+	browser = firefox
+
+```
+
 ### Source Control [GitHub.com](https://github.com/)
 - Set yourself up on GitHub
 - Set up Git [here](https://docs.github.com/en/get-started/quickstart/set-up-git)
