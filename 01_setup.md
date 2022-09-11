@@ -18,6 +18,7 @@
 - Linux uses LF
 - This [Stackoverflow article](https://stackoverflow.com/questions/2920416/configure-bin-shm-bad-interpreter) can help you understand whats going on
 - Example error `/bin/sh^M:bad interpreter`
+- VSCode extension to fix this headache [here](https://marketplace.visualstudio.com/items?itemName=vs-publisher-1448185.keyoti-changeallendoflinesequence)
 - Suggestion Alert: Set your `VSCode` to `LF` and only use `WSL2` to do all your work
 
 ## Configs for WSL
@@ -170,6 +171,7 @@ command = service docker start
 - Install `Language Support for Java by Red Hat` [here](https://marketplace.visualstudio.com/items?itemName=redhat.java)
 - Install `Yaml` support [here](https://marketplace.visualstudio.com/items?itemName=redhat.java)
 - Install `Indent Rainbow` [here](https://marketplace.visualstudio.com/items?itemName=redhat.java)
+- Install `Change All End of Line Sequence` [here](https://marketplace.visualstudio.com/items?itemName=vs-publisher-1448185.keyoti-changeallendoflinesequence)
 
 ### [Docker.com](https://www.docker.com/)
 - [Account setup](https://hub.docker.com/signup)
