@@ -106,7 +106,7 @@ command = service docker start
 ## Linux
 - Checkout the latest version of [Ubuntu](https://ubuntu.com/) or [CentOS](https://www.centos.org/)
 ### Package Manager
-- [APT](https://manpages.ubuntu.com/manpages/xenial/man8/apt.8.html)for Ubuntu
+- [APT](https://manpages.ubuntu.com/manpages/xenial/man8/apt.8.html) for Ubuntu
 - [YUM](https://man7.org/linux/man-pages/man8/yum.8.html) for Centos
 
 ## MacOs
