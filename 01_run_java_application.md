@@ -41,6 +41,15 @@ It will takes some time to run application for first time. When I run this first
 
 <img style="border: 1px solid #1d2253" src="images/spring-petclinic/application_started.png" />
 
+**Note :** If while running this command ``mvnw spring-boot:run`` if it is showing error, you have to install mvnw using this command ``mvn -N wrapper:wrapper`` and then try to run the prvious command again. 
+In wsl2, mvnw is still not working sometimes due to windows issue, then run this -
+
+    sudo apt install dos2unix
+    dos2unix mvnw
+    
+Now your mvnw will works properly.
+
+
 3. When you get this in your terminal, it means your application is started now. Now visit your `http://localhost:8080`. 
 4. It will look something like this in your browser.
 <img style="border: 1px solid #1d2253" src="images/spring-petclinic/spring_ui.png" />
