@@ -121,8 +121,7 @@ command = service docker start
 - It can do so much more | We will leave you to explore
 
 ### [Devdocs.io | The application command encyclopedia & yes you can access it offline](https://devdocs.io/)
-- `Bash, CSS, Docker, Flask, Git, Go, Brew, HTML, HTTP, Java, JavaScript, Markdown, Nginx, Nodejs, npm, Python, Kubectl, Kubernetes`
-- And so much more
+- `Bash, CSS, Docker, Flask, Git, Go, Brew, HTML, HTTP, Java, JavaScript, Markdown, Nginx, Nodejs, npm, Python, Kubectl, Kubernetes` and so much more
 
 ### [SDKMan.io | For managing all things Java | SDKs | JDKs](https://sdkman.io/) `Optional`
 - Usage [here](https://sdkman.io/usage)
