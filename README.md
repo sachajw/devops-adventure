@@ -24,8 +24,9 @@
 - We are building [this](https://filedn.eu/lJEPcSQWQQPRsWJKijxnXCQ/ortelius/gitops/01-ci-dev-ortelius-cloudnative-architecture-poc.html)
 
 ## Deploy and containerise
-### Springboot Java [Spring Petclinic](https://github.com/spring-projects/spring-petclinic)
+### Springboot Java [Spring Petclinic](https://github.com/spring-projects/spring-petclinic) Application
 - `PLEASE READ the README` you will save yourself a lot of pain
+- Fork the repository
 - [Spring Petclinic Slides](https://speakerdeck.com/michaelisvy/spring-petclinic-sample-application)
 - [DocsSpring.io](https://docs.spring.io/)
 - [Spring Boot Maven Plugin Documentation](https://docs.spring.io/spring-boot/docs/current/maven-plugin/reference/htmlsingle/#goals-build-image)
