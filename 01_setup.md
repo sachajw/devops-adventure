@@ -157,7 +157,7 @@ command = service docker start
 - Install Git for all things source control
 - Get familiar with the basic commands such as pushing and pulling of changes and creating branches
 - Please refer to the [Ortelius PR Cheat Sheet](https://docs.ortelius.io/guides/contributorguide/pull-request-cheat-sheet/)
-- Use Devdocs and the documentation on the site for further exploring
+- Use [Devdocs](https://devdocs.io/) and the Git documentation [here](https://git-scm.com/doc)
 
 `.gitconfig` inspiration
 ```
