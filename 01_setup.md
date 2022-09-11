@@ -1,6 +1,6 @@
 # Fine dining with Abraham Ortelius
 ## Canapes
-## Operating Systems
+## Environment
 ### Windows
 - `Windows 10` latest version & fully updated
 - Enable `WSL2` | Go to `Programs and features` --> `Turn Windows features on or off` --> `Windows Subsystem for Linux`
