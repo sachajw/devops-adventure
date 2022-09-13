@@ -37,6 +37,7 @@
 - [mvn repository for dependencies](https://mvnrepository.com/)
 
 ### React Shopping Cart [Shopping Cart](https://github.com/ikismail/React-ShoppingCart)
+- YARN package manager
 
 ### Python Web UI to manage PostgreSQL [PgAdmin](https://www.pgadmin.org/)
 
