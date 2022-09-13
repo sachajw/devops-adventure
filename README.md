@@ -36,7 +36,7 @@
 - [mkyong.com](https://mkyong.com/) is a useful Java resource
 - [mvn repository for dependencies](https://mvnrepository.com/)
 
-### React Shopping Cart [Shopping Cart](https://github.com/ikismail/React-ShoppingCart)
+### [React Shopping Cart](https://github.com/ikismail/React-ShoppingCart)
 - `PLEASE READ the README`
 - Fork the repo & clone
 - YARN package manager
