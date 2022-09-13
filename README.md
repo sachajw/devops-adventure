@@ -57,11 +57,13 @@
 - Argo CD
 - Backend
 - Blast radius
+- Block Chain
 - Containers
 - Continous Integration
 - Continous Delivery
 - Data Science
 - Declarative
+- Django
 - Event driven
 - Frontend
 - GitOps
@@ -75,6 +77,7 @@
 - Package Manager
 - Parameterisation
 - PODs
+- XRP
 
 ## Learning platforms
 - [Udemy.com](https://udemy.com)
