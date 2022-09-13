@@ -52,7 +52,7 @@
 ### PostgreSQL
 - Container can be pulled from [here](https://hub.docker.com/_/postgres/)
 
-## Jargon Glossary
+## Ortelius Jargon Glossary
 - API
 - Argo CD
 - Backend
@@ -79,7 +79,7 @@
 ## Learning platforms
 - [Udemy.com](https://udemy.com)
 - [Kodekloud.com](https://kodekloud.com)
-- [RealWorld example apps](https://codebase.show/projects/realworld?language=javascript)The mother of all demo apps
+- [RealWorld example apps](https://codebase.show/projects/realworld?language=javascript) The mother of all demo apps
 
 ## Linux & Open Source
 - [Itsfoss.com](https://itsfoss.com/)
