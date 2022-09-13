@@ -42,7 +42,7 @@
 - YARN package manager
 - [ikismail-react-shoppping.surge.sh](http://ikismail-react-shopping.surge.sh/#/)
 
-### [Angular RealWorld example app](https://github.com/gothinkster/angularjs-realworld-example-app)
+### [Angular RealWorld example app](https://github.com/khaledosman/angular-realworld-example-app)
 - `PLEASE READ the README`
 - Fork the repo & clone
 - NPM package manager
