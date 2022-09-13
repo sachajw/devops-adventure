@@ -36,6 +36,8 @@
 - [mkyong.com](https://mkyong.com/) is a useful Java resource
 - [mvn repository for dependencies](https://mvnrepository.com/)
 
+### React Shopping Cart [Shopping Cart](https://github.com/ikismail/React-ShoppingCart)
+
 ### Python Web UI to manage PostgreSQL [PgAdmin](https://www.pgadmin.org/)
 
 ### PostgreSQL
