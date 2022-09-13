@@ -27,7 +27,7 @@
 ## Deploy and containerise
 ### Springboot Java [Spring Petclinic](https://github.com/spring-projects/spring-petclinic) Application
 - `PLEASE READ the README`
-- Fork the repo
+- Fork the repo & clone
 - [Spring Petclinic Slides](https://speakerdeck.com/michaelisvy/spring-petclinic-sample-application)
 - [DocsSpring.io](https://docs.spring.io/)
 - [Spring Boot Maven Plugin Documentation](https://docs.spring.io/spring-boot/docs/current/maven-plugin/reference/htmlsingle/#goals-build-image)
@@ -38,7 +38,7 @@
 
 ### React Shopping Cart [Shopping Cart](https://github.com/ikismail/React-ShoppingCart)
 - `PLEASE READ the README`
-- Fork the repo
+- Fork the repo & clone
 - YARN package manager
 
 ### Python Web UI to manage PostgreSQL [PgAdmin](https://www.pgadmin.org/)
