@@ -4,7 +4,7 @@
 - Please read and explore the documentation for each subject
 - This is a navigational map in the spirit of [Abraham Ortelius](https://en.wikipedia.org/wiki/Abraham_Ortelius)
 - Google is your friend for when you get stuck
-- Please help us improve the map
+- Please help us improve the cartography
 
 ## Organisations
 - [CNCF](https://www.cncf.io/)
