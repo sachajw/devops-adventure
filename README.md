@@ -42,6 +42,11 @@
 - YARN package manager
 - [ikismail-react-shoppping.surge.sh](http://ikismail-react-shopping.surge.sh/#/)
 
+### [Angular RealWorld example app](https://github.com/gothinkster/angularjs-realworld-example-app)
+- `PLEASE READ the README`
+- Fork the repo & clone
+- NPM package manager
+
 ### Python Web UI to manage PostgreSQL [PgAdmin](https://www.pgadmin.org/)
 
 ### PostgreSQL
@@ -74,6 +79,8 @@
 ## Learning platforms
 - [Udemy.com](https://udemy.com)
 - [Kodekloud.com](https://kodekloud.com)
+- [RealWorld example apps](https://codebase.show/projects/realworld?language=javascript)The mother of all demo apps
+
 ## Linux & Open Source
 - [Itsfoss.com](https://itsfoss.com/)
 - [Linuxhandbook.com](https://linuxhandbook.com/)
