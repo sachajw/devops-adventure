@@ -66,6 +66,7 @@
 - Machine Learning
 - Microservices
 - Opensource
+- Package Manager
 - Parameterisation
 - PODs
 
