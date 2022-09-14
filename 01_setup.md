@@ -115,7 +115,9 @@ command = service docker start
 
 # Starters
 ### [AWS LocalStack](https://localstack.cloud/)The AWS Cloud on your machine
-- A fully functional local cloud stack Develop and test your cloud and serverless apps offline!
+- A fully functional local cloud stack to Develop and test your cloud and serverless apps offline!
+- [Getting started](https://docs.localstack.cloud/get-started/)
+- [Integrations](https://docs.localstack.cloud/integrations/)
 
 ### [Topgrade | Update everything with one command](https://github.com/r-darwish/topgrade) `Optional`
 - [Topgrade Wiki](https://github.com/r-darwish/topgrade/wiki/Step-list)
