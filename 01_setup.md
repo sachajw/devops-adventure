@@ -271,7 +271,7 @@ brk = "!f() { git cap \"‼️ BREAKING: $@\"; }; f"
 - A fully functional local cloud stack to Develop and test your cloud and serverless apps offline!
 - [Getting started](https://docs.localstack.cloud/get-started/)
 - [Integrations](https://docs.localstack.cloud/integrations/)
-
+- [Localstack Cockpit Web UI](https://localstack.cloud/products/cockpit/)
 ```
 helm repo add localstack-repo https://helm.localstack.cloud
 helm upgrade --install localstack localstack-repo/localstack
