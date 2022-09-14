@@ -270,6 +270,7 @@ brk = "!f() { git cap \"‼️ BREAKING: $@\"; }; f"
 ### [AWS LocalStack](https://localstack.cloud/)The AWS Cloud on your machine
 - A fully functional local cloud stack to Develop and test your cloud and serverless apps offline!
 - [Getting started](https://docs.localstack.cloud/get-started/)
+- [Localstack Docs](https://docs.localstack.cloud/overview/)
 - [Integrations](https://docs.localstack.cloud/integrations/)
 - [Localstack Cockpit Web UI](https://localstack.cloud/products/cockpit/)
 ```
