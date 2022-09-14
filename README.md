@@ -5,6 +5,7 @@
 - This is a navigational map in the spirit of [Abraham Ortelius](https://en.wikipedia.org/wiki/Abraham_Ortelius)
 - Google is your friend for when you get stuck
 - Please help us improve the cartography
+- To answer your question "Yes it is hard"
 
 ## Organisations
 - [CNCF](https://www.cncf.io/)
