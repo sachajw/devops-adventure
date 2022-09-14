@@ -114,11 +114,6 @@ command = service docker start
 - [Brew.sh](https://brew.sh/)
 
 # Starters
-### [AWS LocalStack](https://localstack.cloud/)The AWS Cloud on your machine
-- A fully functional local cloud stack to Develop and test your cloud and serverless apps offline!
-- [Getting started](https://docs.localstack.cloud/get-started/)
-- [Integrations](https://docs.localstack.cloud/integrations/)
-
 ### [Topgrade | Update everything with one command](https://github.com/r-darwish/topgrade) `Optional`
 - [Topgrade Wiki](https://github.com/r-darwish/topgrade/wiki/Step-list)
 - Supports all operating systems
@@ -271,6 +266,28 @@ brk = "!f() { git cap \"‼️ BREAKING: $@\"; }; f"
 - Install [here](https://kind.sigs.k8s.io/docs/user/quick-start/#installation)
 - Get familiar with the basic commands
 - Checkout the Kind documentation [here](https://kind.sigs.k8s.io/docs/user/quick-start/)
+
+### [AWS LocalStack](https://localstack.cloud/)The AWS Cloud on your machine
+- A fully functional local cloud stack to Develop and test your cloud and serverless apps offline!
+- [Getting started](https://docs.localstack.cloud/get-started/)
+- [Integrations](https://docs.localstack.cloud/integrations/)
+
+```
+helm repo add localstack-repo https://helm.localstack.cloud
+helm upgrade --install localstack localstack-repo/localstack
+
+Release "localstack" does not exist. Installing it now.
+NAME: localstack
+LAST DEPLOYED: Wed Sep 14 13:03:33 2022
+NAMESPACE: default
+STATUS: deployed
+REVISION: 1
+NOTES:
+1. Get the application URL by running these commands:
+  export NODE_PORT=$(kubectl get --namespace default -o jsonpath="{.spec.ports[0].nodePort}" services localstack)
+  export NODE_IP=$(kubectl get nodes --namespace default -o jsonpath="{.items[0].status.addresses[0].address}")
+  echo http://$NODE_IP:$NODE_PORT
+```
 
 ### [Kubernetes.io](https://kubernetes.io/)
 - K8s is a production grade container orchestrater
