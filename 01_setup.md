@@ -114,6 +114,9 @@ command = service docker start
 - [Brew.sh](https://brew.sh/)
 
 # Starters
+### [AWS LocalStack](https://localstack.cloud/)The AWS Cloud on your machine
+- A fully functional local cloud stack Develop and test your cloud and serverless apps offline!
+
 ### [Topgrade | Update everything with one command](https://github.com/r-darwish/topgrade) `Optional`
 - [Topgrade Wiki](https://github.com/r-darwish/topgrade/wiki/Step-list)
 - Supports all operating systems
