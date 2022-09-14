@@ -274,22 +274,6 @@ brk = "!f() { git cap \"‼️ BREAKING: $@\"; }; f"
 - [Localstack Docs](https://docs.localstack.cloud/overview/)
 - [Integrations](https://docs.localstack.cloud/integrations/)
 - [Localstack Cockpit Web UI](https://localstack.cloud/products/cockpit/)
-```
-helm repo add localstack-repo https://helm.localstack.cloud
-helm upgrade --install localstack localstack-repo/localstack
-
-Release "localstack" does not exist. Installing it now.
-NAME: localstack
-LAST DEPLOYED: Wed Sep 14 13:03:33 2022
-NAMESPACE: default
-STATUS: deployed
-REVISION: 1
-NOTES:
-1. Get the application URL by running these commands:
-  export NODE_PORT=$(kubectl get --namespace default -o jsonpath="{.spec.ports[0].nodePort}" services localstack)
-  export NODE_IP=$(kubectl get nodes --namespace default -o jsonpath="{.items[0].status.addresses[0].address}")
-  echo http://$NODE_IP:$NODE_PORT
-```
 
 ### [Kubernetes.io](https://kubernetes.io/)
 - K8s is a production grade container orchestrater
