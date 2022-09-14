@@ -114,7 +114,7 @@ command = service docker start
 - [Brew.sh](https://brew.sh/)
 
 # Starters
-### [Topgrade | Update everything with one command](https://github.com/r-darwish/topgrade) `Optional`
+### [Topgrade | Update everything with one command](https://github.com/r-darwish/topgrade) `OPTIONAL`
 - [Topgrade Wiki](https://github.com/r-darwish/topgrade/wiki/Step-list)
 - Supports all operating systems
 - Topgrade config file is here `.config/topgrade.toml`
@@ -125,7 +125,7 @@ command = service docker start
 ### [Devdocs.io | The application command encyclopedia & yes you can access it offline](https://devdocs.io/)
 - `Bash, CSS, Docker, Flask, Git, Go, Brew, HTML, HTTP, Java, JavaScript, Markdown, Nginx, Nodejs, npm, Python, Kubectl, Kubernetes` and so much more
 
-### [SDKMan.io | For managing all things Java | SDKs | JDKs](https://sdkman.io/) `Optional`
+### [SDKMan.io | For managing all things Java | SDKs | JDKs](https://sdkman.io/) `OPTIONAL`
 - Usage [here](https://sdkman.io/usage)
 
 ### [Discord.com](https://discord.com/)
@@ -267,7 +267,7 @@ brk = "!f() { git cap \"‼️ BREAKING: $@\"; }; f"
 - Get familiar with the basic commands
 - Checkout the Kind documentation [here](https://kind.sigs.k8s.io/docs/user/quick-start/)
 
-### [AWS LocalStack](https://localstack.cloud/)The AWS Cloud on your machine
+### [AWS LocalStack](https://localstack.cloud/)The AWS Cloud on your machine `OPTIONAL`
 - A fully functional local cloud stack to Develop and test your cloud and serverless apps offline!
 - [Getting started](https://docs.localstack.cloud/get-started/)
 - [Localstack Docs](https://docs.localstack.cloud/overview/)
