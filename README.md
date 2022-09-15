@@ -66,10 +66,12 @@
 - Declarative
 - Django
 - Event driven
+- [Filecoin](https://filecoin.io/)
 - Frontend
 - GitOps
 - Helm
 - Imperative
+- [IPFS (Interplanetary File System)](https://docs.ipfs.tech/concepts/what-is-ipfs/#decentralization)
 - Keptn
 - Markdown
 - Machine Learning
@@ -78,7 +80,7 @@
 - Package Manager
 - Parameterisation
 - PODs
-- XRP
+- [XRPL](https://xrpl.org/)
 
 ## Learning platforms
 - [Udemy.com](https://udemy.com)
