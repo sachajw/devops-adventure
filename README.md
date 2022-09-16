@@ -22,7 +22,7 @@
 - [Build pipelines](https://opensource.com/article/19/4/devops-pipeline)
 - [Ortelius](https://ortelius.io/)
 - [Cloud Computing](https://www.zdnet.com/article/what-is-cloud-computing-everything-you-need-to-know-about-the-cloud/)
-- To abstract `application parameterisation` from application code, and to come alongside developers to deliver applications with [Argo CD](https://argo-cd.readthedocs.io/en/stable/user-guide/parameters/)
+- To abstract `application parameterisation` from application code with [Argo CD](https://argo-cd.readthedocs.io/en/stable/user-guide/parameters/)
 
 ### What are we building?
 - We are building [this](https://filedn.eu/lJEPcSQWQQPRsWJKijxnXCQ/ortelius/gitops/01-ci-dev-ortelius-cloudnative-architecture-poc.html)
