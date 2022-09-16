@@ -1,0 +1,70 @@
+# For PVC template purpose
+appName: pgadmin
+capability: kubevisor
+oauth_enabled: "True"
+
+# For creating a pvc
+persistanceStorage:
+  size: 10Gi
+  accessMode: "ReadWriteOnce"
+
+# For sourcing Generic chart values
+acmgeneric:
+  stage: dev
+  imageOverride: kubevisor/pgadmin
+  imageVersion:
+  memoryRequest: 1.1G
+  memoryLimit: 2G
+  replicas: 1
+  nginxIngress:
+    enabled: false
+  istio:
+    hosts:
+    - hostname: pgadmin-dev.acmcloud.srv.allianz
+    allowOrigins:
+    - regex: '*'
+  persistence:
+    stateful: true
+
+  # Value in configmap Fasle/ no configmap will simply work with inetral auth alone
+  configMapRef:
+  - github-oauth-switch
+
+  # when you want to set first admin credential saved as vault secret. We prefer this.
+  # Make sure all prerequistes for vault onboadring of application  -
+  # as per confluence (https://cmp.allianz.net/display/ACMCLOUD/Continuous+Delivery+-+Secrets+-+Vault+Setup)is satisfied before deploying.
+  # or ask us with PR :-)
+  vault:
+    enabled: true
+    secrets:
+    - name: pgadmin
+      keys:
+      - key: SETUP_EMAIL
+        envvarName: PGADMIN_SETUP_EMAIL
+      - key: SETUP_PASSWORD
+        envvarName: PGADMIN_SETUP_PASSWORD
+    # Needed only if you are planning to set github oauth
+    - name: pgadmin-github-oauth
+      keys:
+      - key: OAUTH2_CLIENT_ID
+        envvarName: OAUTH2_CLIENT_ID
+      - key: OAUTH2_CLIENT_SECRET
+        envvarName: OAUTH2_CLIENT_SECRET
+
+# pvc mount, adopt to your capability name when deploy
+  mount:
+    volumeMounts:
+      - name:  kubevisor-pgadmin-data
+        mountPath: "/var/lib/pgadmin"
+        readOnly: false
+    volumes:
+      - name: kubevisor-pgadmin-data
+        persistentVolumeClaim:
+          claimName: kl-pgadmin-data
+
+# Needed for smooth deployment in pvc mounting deployments
+  updateStrategy:
+    rollingUpdate:
+      maxSurge: 25%
+      maxUnavailable: 1
+    type: RollingUpdate
