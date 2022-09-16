@@ -1,6 +1,6 @@
 # --- Adventure with Abraham Ortelius ---
 
-## Disclaimer:
+## Motivation:
 - Please read and explore the documentation for each subject
 - This is a navigational map in the spirit of [Abraham Ortelius](https://en.wikipedia.org/wiki/Abraham_Ortelius)
 - Google is your friend for when you get lost
