@@ -134,7 +134,7 @@ command = service docker start
 ### [Discord.com](https://discord.com/)
 - Discord is global human interaction
 - Set yourself up with your very own `Discord server`
-- Create a dedicated channel for for `Git Guardian alerts`
+- Create a dedicated channel for `Git Guardian alerts`
 - `Do this before Git Guardian`
 
 ### [Git Guardian.com](https://www.gitguardian.com/)
