@@ -3,9 +3,11 @@
 ## Disclaimer:
 - Please read and explore the documentation for each subject
 - This is a navigational map in the spirit of [Abraham Ortelius](https://en.wikipedia.org/wiki/Abraham_Ortelius)
-- Google is your friend for when you get stuck
+- Google is your friend for when you get lost
 - Please help us improve the cartography
-- To answer your question "Yes it is hard"
+- To answer your question "Yes it is hard" but you can do it
+- If Abraham Ortelius could draw maps in the 1500s without our modern day technology you can definitely do this
+- Abraham Ortelius was a DevOps Engineer and Microservices pioneer by containerising the world through cartography
 
 ## Organisations
 - [CNCF](https://www.cncf.io/)
@@ -46,7 +48,7 @@
 ### [Angular RealWorld example app](https://github.com/khaledosman/angular-realworld-example-app)
 - `PLEASE READ the README`
 - Fork the repo & clone
-- NPM package manager
+- `NPM` package manager
 
 ### Python Web UI to manage PostgreSQL [PgAdmin](https://www.pgadmin.org/)
 
