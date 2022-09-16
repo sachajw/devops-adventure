@@ -6,7 +6,7 @@
 - Google is your friend for when you get lost
 - Please help us improve the cartography
 - To answer your question "Yes it is hard" but you can do it
-- If Abraham Ortelius could draw maps in the 1500s without our modern day technology you can definitely do this
+- If Abraham Ortelius could draw maps in the 1500s without our modern day technology you can do this
 - Abraham Ortelius was a DevOps Engineer and Microservices pioneer by containerising the world through cartography
 
 ## Organisations
