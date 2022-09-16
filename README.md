@@ -1,5 +1,5 @@
 # --- Adventure with Abraham Ortelius ---
-
+todo : add table of contents
 ## Disclaimer:
 - Please read and explore the documentation for each subject
 - This is a navigational map in the spirit of [Abraham Ortelius](https://en.wikipedia.org/wiki/Abraham_Ortelius)
