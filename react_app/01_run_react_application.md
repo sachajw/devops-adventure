@@ -28,7 +28,7 @@ Let’s clone the sample application that we’ll be using in this module to our
    dependencies from `package.json` file.
  - Now run `npm start`, it will start your application on
    `localhost:3000`
-   <img style="border: 1px solid #1d2253" src="images/react_shoppingcart/react_app.png" />
+   <img style="border: 1px solid #1d2253" src="../images/react_shoppingcart/react_app.png" />
 
 
 **Running application through linux**
