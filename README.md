@@ -24,6 +24,8 @@
 - [Cloud Computing](https://www.zdnet.com/article/what-is-cloud-computing-everything-you-need-to-know-about-the-cloud/)
 - [Argo CD](https://argo-cd.readthedocs.io/en/stable/user-guide/parameters/)
 - To abstract `application parameterisation` from application code
+- [Blockchain](https://hackernoon.com/get-started-with-blockchain-in-2018-cb21896470de)
+- [ArangoDB](https://www.arangodb.com/)
 
 ### What are we building?
 #### Event driven architecture with Ortelius
