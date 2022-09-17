@@ -54,7 +54,7 @@
 - Fork the repo & clone
 - Test using the [YARN](https://yarnpkg.com/) package manager
 - Test using the [PnPM.io](https://pnpm.io/) package manager
-- [ikismail-react-shoppping.surge.sh](http://ikismail-react-shopping.surge.sh/#/)
+- [ikismail-react-shopping.surge.sh](http://ikismail-react-shopping.surge.sh/#/)
 
 ### [Angular RealWorld example app](https://github.com/khaledosman/angular-realworld-example-app)
 - `PLEASE READ the README`
