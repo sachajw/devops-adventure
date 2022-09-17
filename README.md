@@ -35,7 +35,7 @@
 - [ArangoDB](https://www.arangodb.com/)
 - [XRPL SBOM Ledger repo](https://github.com/ortelius/la-sbom-ledger)
 
-## Deploy and containerise
+## Demo apps to deploy and containerise
 ### Springboot Java [Spring Petclinic](https://github.com/spring-projects/spring-petclinic) Application
 - `PLEASE READ the README`
 - Fork the repo & clone
