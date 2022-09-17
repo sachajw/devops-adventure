@@ -49,4 +49,4 @@ docker run -it -p 3000:3000 client
 ```
 It will take some time and this will be showing in your terminal, and your application is started now.
 Now go to `localhost:3000` and check your application running from inside a container.
-<img style="border: 1px solid #1d2253" src="images/react_shoppingcart/react_app.png" />
+<img style="border: 1px solid #1d2253" src="../images/react_shoppingcart/react_app.png" />

@@ -40,4 +40,4 @@ Let’s clone the sample application that we’ll be using in this module to our
    This command will also install the nodejs.
  - Now go to your project directory and run `npm start`. It will start
    your application in `localhost:3000`
-<img style="border: 1px solid #1d2253" src="images/react_shoppingcart/react_app.png" />
+<img style="border: 1px solid #1d2253" src="../images/react_shoppingcart/react_app.png" />
