@@ -26,7 +26,14 @@
 - To abstract `application parameterisation` from application code
 
 ### What are we building?
+#### Event driven architecture with Ortelius
 - We are building [this](https://filedn.eu/lJEPcSQWQQPRsWJKijxnXCQ/ortelius/gitops/01-ci-dev-ortelius-cloudnative-architecture-poc.html)
+- [Ortelius Docs](https://github.com/ortelius/ortelius-docs/blob/main/content/en/guides/userguide/integrations/OrteliusKeptn.md)
+
+#### XRPL SBOM Ledger with Ortelius
+- [Nodejs](https://nodejs.org/en/)
+- [ArangoDB](https://www.arangodb.com/)
+- [XRPL SBOM Ledger repo](https://github.com/ortelius/la-sbom-ledger)
 
 ## Deploy and containerise
 ### Springboot Java [Spring Petclinic](https://github.com/spring-projects/spring-petclinic) Application
@@ -53,8 +60,11 @@
 
 ### Python Web UI to manage PostgreSQL [PgAdmin](https://www.pgadmin.org/)
 
-### PostgreSQL
+### PostgreSQL | Ortelius
 - Container can be pulled from [here](https://hub.docker.com/_/postgres/)
+
+### ArangoDB | XRPL SBOM Ledger
+- Container can be pulled from [here](https://https://hub.docker.com/_/arangodb)
 
 ## Ortelius Jargon Glossary
 - API
