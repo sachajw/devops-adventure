@@ -6,10 +6,10 @@
  - I have wsl2 installed in my system and I am using my Linux environment to run this application. I also advised developers to use Linux environment as we will be going to use lot of command line stuff later.
 
 **Software needed :**  
-Node js
-npm 
-VS Code  
-Linux in WSL2 
+Node js   
+npm    
+VS Code   
+Linux in WSL2  
 
 **Fixing one error** 
 

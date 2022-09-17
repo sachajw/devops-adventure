@@ -8,7 +8,7 @@
    - You can also run it in eclipse or other code editor for demo purposes.
 
 **Software needed :**  
-Node js
+Node js   
 npm    
 VS Code  
 Linux in WSL2   
