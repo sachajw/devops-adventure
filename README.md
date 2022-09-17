@@ -68,7 +68,8 @@
 
 ## Ortelius Jargon Glossary
 - API
-- Argo CD
+- [Argo CD](https://argo-cd.readthedocs.io/en/stable/user-guide/parameters/)
+- [ArangoDB](https://www.arangodb.com/)
 - Backend
 - Blast radius
 - Block Chain
@@ -77,15 +78,14 @@
 - Continous Delivery
 - Data Science
 - Declarative
-- Django
 - Event driven
 - [Filecoin](https://filecoin.io/)
 - Frontend
-- GitOps
-- Helm
+- [GitOps](https://about.gitlab.com/topics/gitops/)
+- [Helm.sh](https://helm.sh/)
 - Imperative
 - [IPFS (Interplanetary File System)](https://docs.ipfs.tech/concepts/what-is-ipfs/#decentralization)
-- Keptn
+- [Keptn.sh](https://keptn.sh/)
 - Markdown
 - Machine Learning
 - Microservices
