@@ -52,13 +52,15 @@
 ### [React Shopping Cart](https://github.com/ikismail/React-ShoppingCart)
 - `PLEASE READ the README`
 - Fork the repo & clone
-- YARN package manager
+- Test using the [YARN](https://yarnpkg.com/) package manager
+- Test using the [PnPM.io](https://pnpm.io/) package manager
 - [ikismail-react-shoppping.surge.sh](http://ikismail-react-shopping.surge.sh/#/)
 
 ### [Angular RealWorld example app](https://github.com/khaledosman/angular-realworld-example-app)
 - `PLEASE READ the README`
 - Fork the repo & clone
-- `NPM` package manager
+- Test using the [NPM](https://www.npmjs.com/) package manager
+- Test using the [PnPM.io](https://pnpm.io/) package manager
 
 ### Python Web UI to manage PostgreSQL [PgAdmin](https://www.pgadmin.org/)
 
