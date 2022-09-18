@@ -127,6 +127,9 @@ command = service docker start
 ### [Devdocs.io | The application command encyclopedia & yes you can access it offline](https://devdocs.io/)
 - `Bash, CSS, Docker, Flask, Git, Go, Brew, HTML, HTTP, Java, JavaScript, Markdown, Nginx, Nodejs, npm, Python, Kubectl, Kubernetes` and so much more
 
+### [WARP](https://www.warp.dev/) The Terminal for the 21st Century `OPTIONAL`
+- Documentation is [here](https://docs.warp.dev/getting-started/readme
+)
 ### [SDKMan.io | For managing all things Java | SDKs | JDKs](https://sdkman.io/) `OPTIONAL`
 - Usage [here](https://sdkman.io/usage)
 
