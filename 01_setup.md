@@ -284,10 +284,10 @@ brk = "!f() { git cap \"‼️ BREAKING: $@\"; }; f"
 - Use the `kubectl` cheat sheet [here](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
 - Add the `aliases` & `auto complete` which are in the `cheat sheet`
 
-### [PostgreSQL.org](https://www.postgresql.org/)
+### [PostgreSQL.org](https://www.postgresql.org/) & Ortelius event driven architecture
 - Open Source relational database
 
-### [ArangoDB](https://www.arangodb.com/)
+### [ArangoDB](https://www.arangodb.com/) & Ortelius XRPL SBOM Ledger
 - Learn graph databases & native multi-models
 
 # Dessert
