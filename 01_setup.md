@@ -14,7 +14,7 @@
 - Example error `/bin/sh^M:bad interpreter`
 - Suggestion Alert: Set your `VSCode` to `LF` and only use `WSL2` to do all your work
 
-// TODO - further documentation needed here | testers needed
+// TODO fix this further documentation needed here & testers needed
 - `Windows 11` latest version & fully updated
 
 ## Configs for WSL
