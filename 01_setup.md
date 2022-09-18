@@ -147,6 +147,7 @@ command = service docker start
 - Support for `Git Hooks`
 - Support for `Docker` | [Docker image integration](https://docs.gitguardian.com/internal-repositories-monitoring/integrations/docker/docker_image)
 - Alerting for `Discord, Custom Webhook, Jira, Pager Duty, Slack, Splunk`
+- Discord integration is [here](https://docs.gitguardian.com/internal-repositories-monitoring/notifications/discord)
 
 ### [YADM.io](https://yadm.io/) Yet Another Dot File Manager `Optional`
 - In Linux you end up with a lot of config files which usually start with `.`
