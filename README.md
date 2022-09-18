@@ -13,6 +13,7 @@
 - [CNCF](https://www.cncf.io/)
 - [CNCF Cloud Native Landscape](https://landscape.cncf.io/)
 - [Ortelius](https://ortelius.io/)
+- [XRPL](https://xrpl.org/)
 
 ### What are we learning?
 - To build applications with [build tools](https://www.plutora.com/ci-cd-tools/software-build-tools) such as `Maven` or `Gradle`
@@ -34,9 +35,10 @@
 - [Ortelius Docs](https://github.com/ortelius/ortelius-docs/blob/main/content/en/guides/userguide/integrations/OrteliusKeptn.md)
 
 #### XRPL SBOM Ledger with Ortelius
+- [XRPL Ledgers](https://xrpl.org/ledgers.html#ledgers)
+- [XRPL SBOM Ledger repo](https://github.com/ortelius/la-sbom-ledger)
 - [Nodejs](https://nodejs.org/en/)
 - [ArangoDB](https://www.arangodb.com/)
-- [XRPL SBOM Ledger repo](https://github.com/ortelius/la-sbom-ledger)
 
 ## Demo apps to deploy and containerise
 ### Springboot Java [Spring Petclinic](https://github.com/spring-projects/spring-petclinic) Application
