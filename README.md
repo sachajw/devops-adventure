@@ -93,7 +93,7 @@
 - [IPFS (Interplanetary File System)](https://docs.ipfs.tech/concepts/what-is-ipfs/#decentralization)
 - [Keptn.sh](https://keptn.sh/)
 - Markdown
-- Machine Learning
+- [Machine Learning](https://www.expert.ai/blog/machine-learning-definition/)
 - Microservices
 - Opensource
 - Package Manager
