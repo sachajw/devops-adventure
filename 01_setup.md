@@ -287,6 +287,9 @@ brk = "!f() { git cap \"‼️ BREAKING: $@\"; }; f"
 ### [PostgreSQL.org](https://www.postgresql.org/)
 - Open Source relational database
 
+### [ArangoDB](https://www.arangodb.com/)
+- Learn graph databases & native multi-models
+
 # Dessert
 ### [Ortelius.io](https://ortelius.io/)
 - Documentation [here](https://docs.ortelius.io/guides/)
