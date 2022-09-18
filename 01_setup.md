@@ -136,6 +136,7 @@ command = service docker start
 - Set yourself up with your very own `Discord server`
 - Create a dedicated channel for `Git Guardian alerts`
 - `Do this before Git Guardian`
+- [How to create GitHub webhooks](https://support.discord.com/hc/en-us/articles/228383668)
 
 ### [Git Guardian.com](https://www.gitguardian.com/)
 - Set yourself up for free
