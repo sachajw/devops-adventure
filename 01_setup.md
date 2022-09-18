@@ -169,7 +169,7 @@ command = service docker start
 	excludesfile = /Users/abraham/.gitignore_global
 [alias]
 # Make sure you're adding under the [alias] block.
-# Git Commit, Add all and Push — in one step.
+# Git Commit, Add all and Push in one step.
 # Using functions in Git
 cap = "!f() { git add .; git commit -m \"$@\"; git push; }; f"
 # NEW.
