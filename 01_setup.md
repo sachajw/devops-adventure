@@ -274,14 +274,6 @@ brk = "!f() { git cap \"‼️ BREAKING: $@\"; }; f"
 - Get familiar with the basic commands
 - Checkout the Kind documentation [here](https://kind.sigs.k8s.io/docs/user/quick-start/)
 
-### [AWS Localstack](https://localstack.cloud/) The AWS Cloud on your local machine `OPTIONAL`
-- A fully functional local cloud stack to Develop and test your cloud and serverless apps offline!
-- AWS only at the time of writing
-- [Getting started](https://docs.localstack.cloud/get-started/)
-- [Localstack Docs](https://docs.localstack.cloud/overview/)
-- [Integrations](https://docs.localstack.cloud/integrations/)
-- [Localstack Cockpit Web UI](https://localstack.cloud/products/cockpit/)
-
 ### [Kubernetes.io](https://kubernetes.io/)
 - K8s is a production grade container orchestrater
 - K8s is the conductor of the orchestra where the conductor is K8s and the orchestra is the containers within PODs
@@ -317,3 +309,15 @@ brk = "!f() { git cap \"‼️ BREAKING: $@\"; }; f"
 - Cloud native application life-cycle orchestration
 - API & event driven
 - Install [here](https://keptn.sh/docs/quickstart/)
+
+### [AWS Localstack](https://localstack.cloud/) The AWS Cloud on your local machine `OPTIONAL`
+- A fully functional local cloud stack to Develop and test your cloud and serverless apps offline!
+- AWS only at the time of writing
+- [Getting started](https://docs.localstack.cloud/get-started/)
+- [Localstack Docs](https://docs.localstack.cloud/overview/)
+- [Integrations](https://docs.localstack.cloud/integrations/)
+- [Localstack Cockpit Web UI](https://localstack.cloud/products/cockpit/)
+
+### [Terraform](https://www.terraform.io/intro) IaC
+
+### [Pulumi](https://www.pulumi.com/docs/get-started/) IaC

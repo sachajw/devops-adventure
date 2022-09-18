@@ -88,6 +88,7 @@
 - Frontend
 - [GitOps](https://about.gitlab.com/topics/gitops/)
 - [Helm.sh](https://helm.sh/)
+- [IaC](https://www.redhat.com/en/topics/automation/what-is-infrastructure-as-code-iac)
 - Imperative
 - [IPFS (Interplanetary File System)](https://docs.ipfs.tech/concepts/what-is-ipfs/#decentralization)
 - [Keptn.sh](https://keptn.sh/)
@@ -98,6 +99,7 @@
 - Package Manager
 - Parameterisation
 - PODs
+- [Terraform](https://www.terraform.io/)
 - [XRPL](https://xrpl.org/)
 
 ## Learning platforms
