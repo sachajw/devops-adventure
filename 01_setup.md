@@ -322,5 +322,8 @@ brk = "!f() { git cap \"‼️ BREAKING: $@\"; }; f"
 - [Localstack Cockpit Web UI](https://localstack.cloud/products/cockpit/)
 
 ### [Terraform](https://www.terraform.io/intro) IaC
+- Documentation is [here](https://www.terraform.io/docs)
 
 ### [Pulumi](https://www.pulumi.com/docs/get-started/) IaC
+- Documentation is [here](https://www.pulumi.com/docs/)
+- Convert your Terraform to Pulumi [here](https://www.pulumi.com/tf2pulumi/)
