@@ -1,12 +1,12 @@
 # --- Adventure with Abraham Ortelius ---
 
-## Disclaimer:
+## Motivation:
 - Please read and explore the documentation for each subject
 - This is a navigational map in the spirit of [Abraham Ortelius](https://en.wikipedia.org/wiki/Abraham_Ortelius)
 - Google is your friend for when you get lost
 - Please help us improve the cartography
 - To answer your question "Yes it is hard" but you can do it
-- If Abraham Ortelius could draw maps in the 1500s without our modern day technology you can definitely do this
+- If Abraham Ortelius could draw maps in the 1500s without our modern day technology you can do this
 - Abraham Ortelius was a DevOps Engineer and Microservices pioneer by containerising the world through cartography
 
 ## Organisations
@@ -22,12 +22,22 @@
 - [Build pipelines](https://opensource.com/article/19/4/devops-pipeline)
 - [Ortelius](https://ortelius.io/)
 - [Cloud Computing](https://www.zdnet.com/article/what-is-cloud-computing-everything-you-need-to-know-about-the-cloud/)
-- To abstract `application parameterisation` from application code, and to come alongside developers to deliver applications with [Argo CD](https://argo-cd.readthedocs.io/en/stable/user-guide/parameters/)
+- [Argo CD](https://argo-cd.readthedocs.io/en/stable/user-guide/parameters/)
+- To abstract `application parameterisation` from application code
+- [Blockchain](https://hackernoon.com/get-started-with-blockchain-in-2018-cb21896470de)
+- [ArangoDB](https://www.arangodb.com/)
 
 ### What are we building?
+#### Event driven architecture with Ortelius
 - We are building [this](https://filedn.eu/lJEPcSQWQQPRsWJKijxnXCQ/ortelius/gitops/01-ci-dev-ortelius-cloudnative-architecture-poc.html)
+- [Ortelius Docs](https://github.com/ortelius/ortelius-docs/blob/main/content/en/guides/userguide/integrations/OrteliusKeptn.md)
 
-## Deploy and containerise
+#### XRPL SBOM Ledger with Ortelius
+- [Nodejs](https://nodejs.org/en/)
+- [ArangoDB](https://www.arangodb.com/)
+- [XRPL SBOM Ledger repo](https://github.com/ortelius/la-sbom-ledger)
+
+## Demo apps to deploy and containerise
 ### Springboot Java [Spring Petclinic](https://github.com/spring-projects/spring-petclinic) Application
 - `PLEASE READ the README`
 - Fork the repo & clone
@@ -42,22 +52,28 @@
 ### [React Shopping Cart](https://github.com/ikismail/React-ShoppingCart)
 - `PLEASE READ the README`
 - Fork the repo & clone
-- YARN package manager
-- [ikismail-react-shoppping.surge.sh](http://ikismail-react-shopping.surge.sh/#/)
+- Test using the [YARN](https://yarnpkg.com/) package manager
+- Test using the [PnPM.io](https://pnpm.io/) package manager
+- [ikismail-react-shopping.surge.sh](http://ikismail-react-shopping.surge.sh/#/)
 
 ### [Angular RealWorld example app](https://github.com/khaledosman/angular-realworld-example-app)
 - `PLEASE READ the README`
 - Fork the repo & clone
-- `NPM` package manager
+- Test using the [NPM](https://www.npmjs.com/) package manager
+- Test using the [PnPM.io](https://pnpm.io/) package manager
 
 ### Python Web UI to manage PostgreSQL [PgAdmin](https://www.pgadmin.org/)
 
-### PostgreSQL
+### PostgreSQL | Ortelius
 - Container can be pulled from [here](https://hub.docker.com/_/postgres/)
+
+### ArangoDB | XRPL SBOM Ledger
+- Container can be pulled from [here](https://https://hub.docker.com/_/arangodb)
 
 ## Ortelius Jargon Glossary
 - API
-- Argo CD
+- [Argo CD](https://argo-cd.readthedocs.io/en/stable/user-guide/parameters/)
+- [ArangoDB](https://www.arangodb.com/)
 - Backend
 - Blast radius
 - Block Chain
@@ -66,15 +82,14 @@
 - Continous Delivery
 - Data Science
 - Declarative
-- Django
 - Event driven
 - [Filecoin](https://filecoin.io/)
 - Frontend
-- GitOps
-- Helm
+- [GitOps](https://about.gitlab.com/topics/gitops/)
+- [Helm.sh](https://helm.sh/)
 - Imperative
 - [IPFS (Interplanetary File System)](https://docs.ipfs.tech/concepts/what-is-ipfs/#decentralization)
-- Keptn
+- [Keptn.sh](https://keptn.sh/)
 - Markdown
 - Machine Learning
 - Microservices
