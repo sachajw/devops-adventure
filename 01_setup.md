@@ -136,6 +136,7 @@ command = service docker start
 - Set yourself up with your very own `Discord server`
 - Create a dedicated channel for `Git Guardian alerts`
 - `Do this before Git Guardian`
+- [How to create GitHub webhooks](https://support.discord.com/hc/en-us/articles/228383668)
 
 ### [Git Guardian.com](https://www.gitguardian.com/)
 - Set yourself up for free
@@ -169,7 +170,7 @@ command = service docker start
 	excludesfile = /Users/abraham/.gitignore_global
 [alias]
 # Make sure you're adding under the [alias] block.
-# Git Commit, Add all and Push — in one step.
+# Git Commit, Add all and Push in one step.
 # Using functions in Git
 cap = "!f() { git add .; git commit -m \"$@\"; git push; }; f"
 # NEW.
