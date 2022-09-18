@@ -160,6 +160,7 @@ command = service docker start
 
 ### [Git-scm.com](https://git-scm.com/)
 - Install Git for all things source control
+- Set up Git [here](https://docs.github.com/en/get-started/quickstart/set-up-git)
 - Get familiar with the basic commands such as pushing and pulling of changes and creating branches
 - Please refer to the [Ortelius PR Cheat Sheet](https://docs.ortelius.io/guides/contributorguide/pull-request-cheat-sheet/)
 - Use [Devdocs](https://devdocs.io/) and the Git documentation [here](https://git-scm.com/doc)
@@ -224,7 +225,6 @@ brk = "!f() { git cap \"‼️ BREAKING: $@\"; }; f"
 
 ### Source Control [GitHub.com](https://github.com/)
 - Set yourself up on GitHub
-- Set up Git [here](https://docs.github.com/en/get-started/quickstart/set-up-git)
 
 ### [VSCode](https://code.visualstudio.com/) IDE
 - Download the `VSCode IDE` [here](https://code.visualstudio.com/download)
