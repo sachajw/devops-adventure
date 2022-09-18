@@ -1,13 +1,13 @@
 # --- Adventure with Abraham Ortelius ---
 
 ## Motivation:
-- Please read and explore the documentation for each subject
 - This is a navigational map in the spirit of [Abraham Ortelius](https://en.wikipedia.org/wiki/Abraham_Ortelius)
+- Please read and explore the documentation for each subject
 - Google is your friend for when you get lost
-- Please help us improve the cartography
 - To answer your question "Yes it is hard" but you can do it
 - If Abraham Ortelius could draw maps in the 1500s without our modern day technology you can do this
 - Abraham Ortelius was a DevOps Engineer and Microservices pioneer by containerising the world through cartography
+- Please help us improve the cartography
 
 ## Organisations
 - [CNCF](https://www.cncf.io/)
