@@ -126,12 +126,15 @@ command = service docker start
 
 ### [Devdocs.io | The application command encyclopedia & yes you can access it offline](https://devdocs.io/)
 - `Bash, CSS, Docker, Flask, Git, Go, Brew, HTML, HTTP, Java, JavaScript, Markdown, Nginx, Nodejs, npm, Python, Kubectl, Kubernetes` and so much more
+- [Terms of Service](https://github.com/freeCodeCamp/devdocs/blob/main/LICENSE)
 
 ### [WARP](https://www.warp.dev/) The Terminal for the 21st Century `OPTIONAL`
-- Documentation is [here](https://docs.warp.dev/getting-started/readme
-)
+- Documentation is [here](https://docs.warp.dev/getting-started/readme)
+- [Terms & Conditions](https://github.com/warpdotdev/Warp/blob/main/LICENSE)
+
 ### [SDKMan.io | For managing all things Java | SDKs | JDKs](https://sdkman.io/) `OPTIONAL`
 - Usage [here](https://sdkman.io/usage)
+- [Terms & Conditions](https://github.com/sdkman/sdk/blob/master/LICENSE)
 
 ### [Discord.com](https://discord.com/)
 - Discord is global human interaction
@@ -150,12 +153,14 @@ command = service docker start
 - Support for `Docker` | [Docker image integration](https://docs.gitguardian.com/internal-repositories-monitoring/integrations/docker/docker_image)
 - Alerting for `Discord, Custom Webhook, Jira, Pager Duty, Slack, Splunk`
 - Discord integrations are [here](https://docs.gitguardian.com/internal-repositories-monitoring/notifications/discord)
+- [Terms & Conditions](https://www.gitguardian.com/legal-terms)
 
 ### [YADM.io](https://yadm.io/) Yet Another Dot File Manager `Optional`
 - In Linux you end up with a lot of config files which usually start with `.`
 - The dot files have configurations for various application packages installed on your machine
 - YADM allows you to keep the dot files of your choice backed up to a repository
 - Documentation [here](https://github.com/TheLocehiliosan/yadm/blob/master/yadm.md)
+- [Terms & Conditions](https://github.com/TheLocehiliosan/yadm/blob/master/LICENSE)
 
 # Main Course
 ### Choose between Docker or Podman
@@ -167,6 +172,8 @@ command = service docker start
 - Get familiar with the basic commands such as pushing and pulling of changes and creating branches
 - Please refer to the [Ortelius PR Cheat Sheet](https://docs.ortelius.io/guides/contributorguide/pull-request-cheat-sheet/)
 - Use [Devdocs](https://devdocs.io/) and the Git documentation [here](https://git-scm.com/doc)
+- [Terms & Conditions](https://git-scm.com/sfc)
+- [Software Freedom Conservancy](https://sfconservancy.org/)
 
 `.gitconfig` inspiration
 ```
@@ -248,6 +255,7 @@ brk = "!f() { git cap \"‼️ BREAKING: $@\"; }; f"
 - [Install](https://docs.docker.com/get-docker/)
 - Get familiar with the basic commands
 - Use [Devdocs](https://devdocs.io/) and the Docker documentation [here](https://docs.docker.com/)
+- [Terms & Conditions](https://www.docker.com/legal/docker-terms-service/)
 
 **Docker Security**
 - Bake security right in from the word go
@@ -308,20 +316,24 @@ brk = "!f() { git cap \"‼️ BREAKING: $@\"; }; f"
 - Installation & Support [here](https://docs.ortelius.io/guides/userguide/installation-and-support/)
 - On-prem installation [here](https://docs.ortelius.io/guides/userguide/installation-and-support/0-on-premise-installation-for-pro/)
 - Istio installation [here](https://docs.ortelius.io/guides/userguide/installation-and-support/1-istio-installation-and-usage/)
+- [Terms & Conditions](https://docs.ortelius.io/guides/userguide/installation-and-support/0-terms-of-use-agreement/)
 
 ### [Helm.sh](https://helm.sh/)
 - Install Helm for your operating system (Scroll down until you see `Get Helm!`)
 - K8s templating engine
+- [Terms & Conditions](https://www.linuxfoundation.org/legal/terms)
 
 ### [Argo-CD.readthedocs.io](https://argo-cd.readthedocs.io/en/stable/#:~:text=Argo%20CD%20is%20implemented%20as,target%20state%20is%20considered%20OutOfSync%20.)
 - Argo CD is a declarative, GitOps continous delivery tool for Kubernetes
 - For example it allows you to abstract the application configuration out of the developer code
 - Install [here](https://argo-cd.readthedocs.io/en/stable/getting_started/)
+- [Terms & Conditions](https://github.com/argoproj/argo-cd/blob/master/LICENSE)
 
 ### [Keptn.sh](https://keptn.sh/)
 - Cloud native application life-cycle orchestration
 - API & event driven
 - Install [here](https://keptn.sh/docs/quickstart/)
+- [Terms & Conditions](https://www.linuxfoundation.org/legal/terms)
 
 ### [AWS Localstack](https://localstack.cloud/) The AWS Cloud on your local machine `OPTIONAL`
 - A fully functional local cloud stack to Develop and test your cloud and serverless apps offline!
@@ -334,7 +346,9 @@ brk = "!f() { git cap \"‼️ BREAKING: $@\"; }; f"
 
 ### [Terraform](https://www.terraform.io/intro) IaC
 - Documentation is [here](https://www.terraform.io/docs)
+- [Terms & Conditions](https://registry.terraform.io/terms)
 
 ### [Pulumi](https://www.pulumi.com/docs/get-started/) IaC
 - Documentation is [here](https://www.pulumi.com/docs/)
 - Convert your Terraform to Pulumi [here](https://www.pulumi.com/tf2pulumi/)
+- [Terms & Conditions](https://www.pulumi.com/terms-and-conditions/)
