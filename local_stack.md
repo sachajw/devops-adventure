@@ -20,6 +20,13 @@
 - [Kafka cluster](https://docs.localstack.cloud/integrations/kafka/)
 - [AWS Chalice](https://docs.localstack.cloud/integrations/chalice/)
 
+## Language SDKS
+
+- [.NET](https://docs.localstack.cloud/integrations/sdks/dotnet/)
+- [Go](https://docs.localstack.cloud/integrations/sdks/go/)
+- [PHP](https://docs.localstack.cloud/integrations/sdks/php/)
+- [Python: BOTO3](https://docs.localstack.cloud/integrations/sdks/python/)
+
 ## Requirements
 - Docker installed & running
 - [LocalStack CLI](https://docs.localstack.cloud/get-started/#localstack-cli)
@@ -45,6 +52,5 @@ output = yaml
 aws_access_key_id = test
 aws_secret_access_key = test
 ```
-
 - Start LocalStack from the command line `localstack start`
 - Test you can hit a endpoint `aws --profile localstack --endpoint-url=http://localhost:4566 kinesis list-streams`
