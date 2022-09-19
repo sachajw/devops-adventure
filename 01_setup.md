@@ -137,7 +137,7 @@ command = service docker start
 
 ### [Devdocs.io | The application command encyclopedia & yes you can access it offline](https://devdocs.io/)
 - `Bash, CSS, Docker, Flask, Git, Go, Brew, HTML, HTTP, Java, JavaScript, Markdown, Nginx, Nodejs, npm, Python, Kubectl, Kubernetes` and so much more
-- [Terms of Service](https://github.com/freeCodeCamp/devdocs/blob/main/LICENSE)
+- [Terms & Conditions](https://github.com/freeCodeCamp/devdocs/blob/main/LICENSE)
 
 ### [WARP](https://www.warp.dev/) The Terminal for the 21st Century `OPTIONAL`
 - Documentation is [here](https://docs.warp.dev/getting-started/readme)
