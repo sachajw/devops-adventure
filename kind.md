@@ -4,6 +4,8 @@
 - Get familiar with the basic commands
 - Checkout the Kind documentation [here](https://kind.sigs.k8s.io/docs/user/quick-start/)
 
+![kind docker!](images/kind/kind-docker.jpg)
+
 ### [Kubernetes.io](https://kubernetes.io/)
 - K8s is a production grade container orchestrater
 - K8s is the conductor of the orchestra where the conductor is K8s and the orchestra is the containers within PODs
