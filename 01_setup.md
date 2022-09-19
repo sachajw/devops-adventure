@@ -17,7 +17,6 @@
 
 ### Windows 11
 - Latest version & fully updated
-- We need to document this still
 - [Terms & Conditions](https://www.microsoft.com/en-us/UseTerms/Retail/Windows/11/UseTerms_Retail_Windows_11_English.htm)
 
 ## Configs for WSL
