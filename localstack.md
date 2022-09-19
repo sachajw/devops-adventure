@@ -20,6 +20,8 @@
 - [Kafka cluster](https://docs.localstack.cloud/integrations/kafka/)
 - [AWS Chalice](https://docs.localstack.cloud/integrations/chalice/)
 
+![integrations overview!](images/localstack/integrations-overview.png)
+
 ## Language SDKS
 
 - [.NET](https://docs.localstack.cloud/integrations/sdks/dotnet/)
