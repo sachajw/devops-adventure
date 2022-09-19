@@ -108,6 +108,7 @@
 - [Udemy.com](https://udemy.com)
 - [Kodekloud.com](https://kodekloud.com)
 - [RealWorld example apps](https://codebase.show/projects/realworld?language=javascript) The mother of all demo apps
+- [101 Days of DevOps](https://www.101daysofdevops.com/courses/)
 
 ## Linux & Open Source
 - [Itsfoss.com](https://itsfoss.com/)
