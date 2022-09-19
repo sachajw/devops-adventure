@@ -33,3 +33,4 @@
 - Use the `kubectl` cheat sheet [here](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
 - Use [Devdocs](https://devdocs.io/) and the official documentation [here](https://kubernetes.io/docs/home/)
 - Add the `aliases` & `auto complete` which are in the `cheat sheet`
+- [Interacting with your cluster](https://kind.sigs.k8s.io/docs/user/quick-start/#interacting-with-your-cluster)
