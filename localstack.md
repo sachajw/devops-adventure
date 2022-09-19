@@ -59,7 +59,7 @@ aws_secret_access_key = test
 
 ## Endpoints
 ```
-  endpoints {
+  endpoints
     apigateway     = "http://localhost:4566"
     apigatewayv2   = "http://localhost:4566"
     cloudformation = "http://localhost:4566"
