@@ -20,7 +20,7 @@
 - [Kafka cluster](https://docs.localstack.cloud/integrations/kafka/)
 - [AWS Chalice](https://docs.localstack.cloud/integrations/chalice/)
 
-![localstack-integrations!](images/localstack/localstack-integrations.png)
+    ![localstack-integrations!](images/localstack/localstack-integrations.png)
 
 ## Language SDKS
 
