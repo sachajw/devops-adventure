@@ -1,0 +1,4 @@
+config:
+  aws:region: eu-central-1
+  aws:access_key: test
+  aws:secret_key: test
