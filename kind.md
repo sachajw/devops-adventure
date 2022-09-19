@@ -34,6 +34,7 @@
 - Use [Devdocs](https://devdocs.io/) and the official documentation [here](https://kubernetes.io/docs/home/)
 - Add the `aliases` & `auto complete` which are in the `cheat sheet`
 - [Interacting with your cluster](https://kind.sigs.k8s.io/docs/user/quick-start/#interacting-with-your-cluster)
+- Switch context and namespaces easily with these [tools](https://github.com/ahmetb/kubectx)
 
 [`kind example config`](https://raw.githubusercontent.com/kubernetes-sigs/kind/main/site/content/docs/user/kind-example-config.yaml)
 ```
