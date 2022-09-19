@@ -228,10 +228,12 @@ brk = "!f() { git cap \"‼️ BREAKING: $@\"; }; f"
 
 ### Source Control [GitHub.com](https://github.com/)
 - Set yourself up on GitHub
+- [Terms & Conditions](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service)
 
 ### [VSCode](https://code.visualstudio.com/) IDE
 - Download the `VSCode IDE` [here](https://code.visualstudio.com/download)
 - Security starts in the IDE
+- [Terms & Conditions](https://code.visualstudio.com/License/)
 
 **Helpful Extensions**
 - Install `Snyk Security | Code & Open Source Dependencies` scanner [here](https://marketplace.visualstudio.com/items?itemName=snyk-security.snyk-vulnerability-scanner)
@@ -259,6 +261,7 @@ brk = "!f() { git cap \"‼️ BREAKING: $@\"; }; f"
 - [Podman-Desktop](https://podman-desktop.io/)
 - Get familiar with the basic commands
 - Checkout the Podman documentation [here](https://docs.podman.io/en/latest/)
+-[Terms & Conditions](https://github.com/containers/podman/blob/main/LICENSE)
 
 ### Container Registries
 - Think of container registries as huge parking lots for containers
@@ -274,11 +277,14 @@ brk = "!f() { git cap \"‼️ BREAKING: $@\"; }; f"
 - Install [here](https://kind.sigs.k8s.io/docs/user/quick-start/#installation)
 - Get familiar with the basic commands
 - Checkout the Kind documentation [here](https://kind.sigs.k8s.io/docs/user/quick-start/)
+- [Terms & Conditions](https://www.apache.org/licenses/LICENSE-2.0)
 
 ### [Kubernetes.io](https://kubernetes.io/)
 - K8s is a production grade container orchestrater
 - K8s is the conductor of the orchestra where the conductor is K8s and the orchestra is the containers within PODs
 - PODS are cuddly safe worlds to hold containers (so cute)
+- [Terms & Conditions](https://www.linuxfoundation.org/legal/terms#:~:text=Users%20are%20solely%20responsible%20for,arising%20out%20of%20User%20Content.)
+- [Creative Commons](https://creativecommons.org/licenses/by/3.0/)
 
 ### Kubectl
 - Install `kubectl` the command line tool [here](https://kubernetes.io/docs/tasks/tools/)
@@ -288,9 +294,11 @@ brk = "!f() { git cap \"‼️ BREAKING: $@\"; }; f"
 
 ### [PostgreSQL.org](https://www.postgresql.org/) & Ortelius event driven architecture
 - Open Source relational database
+- [Terms & Conditions](https://www.postgresql.org/about/licence/)
 
 ### [ArangoDB](https://www.arangodb.com/) & Ortelius XRPL SBOM Ledger
 - Learn graph databases & native multi-models
+- [Terms & Conditions](https://www.arangodb.com/customer-agreement/)
 
 # Dessert
 ### [Ortelius.io](https://ortelius.io/)
@@ -322,6 +330,7 @@ brk = "!f() { git cap \"‼️ BREAKING: $@\"; }; f"
 - [Localstack Docs](https://docs.localstack.cloud/overview/)
 - [Integrations](https://docs.localstack.cloud/integrations/)
 - [Localstack Cockpit Web UI](https://localstack.cloud/products/cockpit/)
+- [Terms & Conditions](https://localstack.cloud/terms/)
 
 ### [Terraform](https://www.terraform.io/intro) IaC
 - Documentation is [here](https://www.terraform.io/docs)
