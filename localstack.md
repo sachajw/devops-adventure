@@ -114,13 +114,13 @@ resource "aws_s3_bucket" "test-bucket" {
 `Pulumi.dev.yaml`
 ```
 config:
-  aws:accessKey: test
-  aws:secretKey: test
-  aws:profile: localstack
-  aws:region: eu-central-1
-  aws:s3ForcePathStyle: 'true'
-  aws:skipCredentialsValidation: 'true'
-  aws:skipRequestingAccountId: 'true'
+  aws:accessKey: "test"
+  aws:secretKey: "test"
+  aws:profile: "localstack"
+  aws:region: "eu-central-1"
+  aws:s3UsePathStyle: "true"
+  aws:skipCredentialsValidation: "true"
+  aws:skipRequestingAccountId: "true"
   aws:endpoints:
     - accessanalyzer: http://localhost:4566
       account: http://localhost:4566
@@ -422,4 +422,5 @@ config:
       workmail: http://localhost:4566
       workmailmessageflow: http://localhost:4566
       workspaces: http://localhost:4566
-      xray: http://localhost:4566```
+      xray: http://localhost:4566
+```
