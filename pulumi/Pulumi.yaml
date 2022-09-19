@@ -1,5 +1,5 @@
 name: yaml
-description: TVL
+description: AWS
 runtime: yaml
 resources:
     # Create an AWS resource (S3 Bucket)
