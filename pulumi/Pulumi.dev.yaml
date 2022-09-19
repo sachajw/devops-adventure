@@ -1,4 +1,5 @@
 config:
-  aws:region: eu-central-1
   aws:access_key: test
+  aws:profile: localstack
+  aws:region: eu-central-1
   aws:secret_key: test
