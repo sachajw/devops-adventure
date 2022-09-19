@@ -6,6 +6,13 @@
 
 ![kind docker!](images/kind/kind-docker.jpg)
 
+## Why kind?
+- kind supports multi-node (including HA) clusters
+- kind supports building Kubernetes release builds from source
+- support for make / bash or docker, in addition to pre-published builds
+- kind supports Linux, macOS and Windows
+- kind is a `CNCF certified conformant Kubernetes installer`
+
 ### [Kubernetes.io](https://kubernetes.io/)
 - K8s is a production grade container orchestrater
 - K8s is the conductor of the orchestra where the conductor is K8s and the orchestra is the containers within PODs
@@ -26,10 +33,3 @@
 - Use the `kubectl` cheat sheet [here](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
 - Use [Devdocs](https://devdocs.io/) and the official documentation [here](https://kubernetes.io/docs/home/)
 - Add the `aliases` & `auto complete` which are in the `cheat sheet`
-
-## Why kind?
-- kind supports multi-node (including HA) clusters
-- kind supports building Kubernetes release builds from source
-- support for make / bash or docker, in addition to pre-published builds
-- kind supports Linux, macOS and Windows
-- kind is a `CNCF certified conformant Kubernetes installer`
