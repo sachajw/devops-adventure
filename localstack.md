@@ -7,6 +7,8 @@
 - [Localstack Cockpit Web UI](https://localstack.cloud/products/cockpit/) use this to make sure your services are running
 - [AWS Feature Coverage](https://docs.localstack.cloud/aws/feature-coverage/)
 
+![localstack docker!](images/localstack/localstack-docker.jpg)
+
 ## Integrations
 - [Serverless Framework](https://docs.localstack.cloud/integrations/serverless-framework/)
 - [Spring Cloud Function](https://docs.localstack.cloud/integrations/spring-cloud-function/)
