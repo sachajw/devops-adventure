@@ -13,9 +13,11 @@
 - This [Stackoverflow article](https://stackoverflow.com/questions/2920416/configure-bin-shm-bad-interpreter) can help you understand whats going on
 - Example error `/bin/sh^M:bad interpreter`
 - Suggestion Alert: Set your `VSCode` to `LF` and only use `WSL2` to do all your work
+- [Terms & Conditions](https://www.microsoft.com/en-us/Useterms/Retail/Windows/10/UseTerms_Retail_Windows_10_English.htm)
 
 - `Windows 11` latest version & fully updated
 - We need to document this still
+- [Terms & Conditions](https://www.microsoft.com/en-us/UseTerms/Retail/Windows/11/UseTerms_Retail_Windows_11_English.htm)
 
 ## Configs for WSL
 #### Windows Operating System
@@ -105,7 +107,11 @@ command = service docker start
 ```
 
 ## Linux
-- Checkout the latest version of [Ubuntu](https://ubuntu.com/) or [CentOS](https://www.centos.org/)
+#### [Ubuntu](https://ubuntu.com/)
+- [Terms & Conditions](https://ubuntu.com/legal/intellectual-property-policy)
+#### [CentOS](https://www.centos.org/)
+- [Terms & Conditions](https://www.centos.org/legal/licensing-policy/)
+
 ### Package Managers
 #### [APT](https://manpages.ubuntu.com/manpages/xenial/man8/apt.8.html) for Ubuntu
 - [Terms & Conditions](https://ubuntu.com/legal/intellectual-property-policy)
@@ -281,15 +287,20 @@ brk = "!f() { git cap \"‼️ BREAKING: $@\"; }; f"
 ### Container Registries
 - Think of container registries as huge parking lots for containers
 - Container images can be pushed and pulled from these locations
+
 #### [AWS registry](https://gallery.ecr.aws/)
 - [Terms & Conditions](https://aws.amazon.com/service-terms/)
+
 #### [Docker registry](https://hub.docker.com/_/registry)
 - [Terms & Conditions](https://www.docker.com/legal/docker-terms-service/)
+
 #### [GCP registry](https://cloud.google.com/container-registry)
 - [Terms & Conditions](https://cloud.google.com/terms/aup)
+
 #### [Azure registry](https://azure.microsoft.com/en-us/products/container-registry/)
 - [Terms & Conditions](https://azure.microsoft.com/en-us/support/legal/)
-#### [RedHat Quay registry](https://quay.io/) Ortelius uses Quay
+
+#### [RedHat Quay registry](https://quay.io/)
 - [Terms & Conditions](https://cloud.redhat.com/legal/terms)
 
 ### [Kind.sigs.k8s.io](https://kind.sigs.k8s.io/)
