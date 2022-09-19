@@ -1,11 +1,11 @@
 config:
-  aws:accessKey: test
-  aws:secretKey: test
-  aws:profile: localstack
-  aws:region: eu-central-1
-  aws:s3ForcePathStyle: 'true'
-  aws:skipCredentialsValidation: 'true'
-  aws:skipRequestingAccountId: 'true'
+  aws:accessKey: "test"
+  aws:secretKey: "test"
+  aws:profile: "localstack"
+  aws:region: "eu-central-1"
+  aws:s3ForcePathStyle: "true"
+  aws:skipCredentialsValidation: "true"
+  aws:skipRequestingAccountId: "true"
   aws:endpoints:
     - accessanalyzer: http://localhost:4566
       account: http://localhost:4566
