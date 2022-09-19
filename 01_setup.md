@@ -14,8 +14,8 @@
 - Example error `/bin/sh^M:bad interpreter`
 - Suggestion Alert: Set your `VSCode` to `LF` and only use `WSL2` to do all your work
 
-// TODO fix this further documentation needed here & testers needed
 - `Windows 11` latest version & fully updated
+- We need to document this still
 
 ## Configs for WSL
 #### Windows Operating System
@@ -107,13 +107,17 @@ command = service docker start
 ## Linux
 - Checkout the latest version of [Ubuntu](https://ubuntu.com/) or [CentOS](https://www.centos.org/)
 ### Package Managers
-- [APT](https://manpages.ubuntu.com/manpages/xenial/man8/apt.8.html) for Ubuntu
-- [YUM](https://man7.org/linux/man-pages/man8/yum.8.html) for Centos
+#### [APT](https://manpages.ubuntu.com/manpages/xenial/man8/apt.8.html) for Ubuntu
+- [Terms & Conditions](https://ubuntu.com/legal/intellectual-property-policy)
+#### [YUM](https://man7.org/linux/man-pages/man8/yum.8.html) for Centos
+- [Terms & Conditions](https://www.centos.org/legal/licensing-policy/)
 
 ## MacOs
 ### Package Managers
-- [Macports.org](https://www.macports.org/)
-- [Brew.sh](https://brew.sh/)
+#### [Macports.org](https://www.macports.org/)
+- [Terms & Conditions](https://opensource.org/licenses/BSD-3-Clause)
+#### [Brew.sh](https://brew.sh/)
+- [Terms & Conditions](https://github.com/Homebrew/brew/blob/master/LICENSE.txt)
 
 # Starters
 ### [Topgrade | Update everything with one command](https://github.com/r-darwish/topgrade) `OPTIONAL`
@@ -123,6 +127,7 @@ command = service docker start
 - All I need to type now on my [`zsh terminal`](https://ohmyz.sh/) is `topgrade`
 - It upgrades all my package managers including the packages, Mac store apps and Mac OS updates
 - It can do so much more | We will leave you to explore
+- [Terms & Conditions](https://github.com/r-darwish/topgrade/blob/master/LICENSE)
 
 ### [Devdocs.io | The application command encyclopedia & yes you can access it offline](https://devdocs.io/)
 - `Bash, CSS, Docker, Flask, Git, Go, Brew, HTML, HTTP, Java, JavaScript, Markdown, Nginx, Nodejs, npm, Python, Kubectl, Kubernetes` and so much more
@@ -142,6 +147,7 @@ command = service docker start
 - Create a dedicated channel for `Git Guardian alerts`
 - `Do this before Git Guardian`
 - GitHub webhooks are [here](https://support.discord.com/hc/en-us/articles/228383668)
+- [Terms & Conditions](https://discord.com/terms)
 
 ### [Git Guardian.com](https://www.gitguardian.com/)
 - Set yourself up for free
@@ -261,6 +267,7 @@ brk = "!f() { git cap \"‼️ BREAKING: $@\"; }; f"
 - Bake security right in from the word go
 - We are going to use Snyk to scan our containers
 - Snyk is free and you can set yourself up [here](https://snyk.io/)
+- [Terms & Conditions for Snyk](https://snyk.io/policies/terms-of-service/)
 - In `Docker Desktop` go to the ` Extensions Marketplace` and install the `Snyk Container Extension`
 - On your command line you can now scan your Docker images with `docker scan your-docker-image`
 - Disclaimer: Please follow any prompts `Snyk` requires you to fulfill to get up and running
@@ -274,11 +281,16 @@ brk = "!f() { git cap \"‼️ BREAKING: $@\"; }; f"
 ### Container Registries
 - Think of container registries as huge parking lots for containers
 - Container images can be pushed and pulled from these locations
-- [AWS registry](https://gallery.ecr.aws/)
-- [Docker registry](https://hub.docker.com/_/registry)
-- [GCP registry](https://cloud.google.com/container-registry)
-- [Azure registry](https://azure.microsoft.com/en-us/products/container-registry/)
-- [RedHat Quay registry](https://quay.io/) Ortelius uses Quay
+#### [AWS registry](https://gallery.ecr.aws/)
+- [Terms & Conditions](https://aws.amazon.com/service-terms/)
+#### [Docker registry](https://hub.docker.com/_/registry)
+- [Terms & Conditions](https://www.docker.com/legal/docker-terms-service/)
+#### [GCP registry](https://cloud.google.com/container-registry)
+- [Terms & Conditions](https://cloud.google.com/terms/aup)
+#### [Azure registry](https://azure.microsoft.com/en-us/products/container-registry/)
+- [Terms & Conditions](https://azure.microsoft.com/en-us/support/legal/)
+#### [RedHat Quay registry](https://quay.io/) Ortelius uses Quay
+- [Terms & Conditions](https://cloud.redhat.com/legal/terms)
 
 ### [Kind.sigs.k8s.io](https://kind.sigs.k8s.io/)
 - Kind allows you to use Docker to run K8s nodes as containers
