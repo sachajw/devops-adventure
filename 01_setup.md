@@ -1,6 +1,7 @@
 # Fine dining with Abraham Ortelius
 ## Canapes
-### Windows 10 latest version & fully updated
+### Windows 10
+- Latest version & fully updated
 - Enable `WSL2` | Go to `Programs and features` --> `Turn Windows features on or off` --> `Windows Subsystem for Linux`
 - We recommend using a second disk if you have one in your machine to create the custom folder to house the VMDK
 - This splits up the I/O between the Windows OS and WSL2 which is just a stripped down virtual machine
@@ -14,7 +15,8 @@
 - Suggestion Alert: Set your `VSCode` to `LF` and only use `WSL2` to do all your work
 - [Terms & Conditions](https://www.microsoft.com/en-us/Useterms/Retail/Windows/10/UseTerms_Retail_Windows_10_English.htm)
 
-### Windows 11 latest version & fully updated
+### Windows 11
+- Latest version & fully updated
 - We need to document this still
 - [Terms & Conditions](https://www.microsoft.com/en-us/UseTerms/Retail/Windows/11/UseTerms_Retail_Windows_11_English.htm)
 
