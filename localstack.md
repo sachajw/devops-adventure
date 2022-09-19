@@ -4,7 +4,7 @@
 - [Getting started](https://docs.localstack.cloud/get-started/)
 - [Localstack Docs](https://docs.localstack.cloud/overview/)
 - [Integrations](https://docs.localstack.cloud/integrations/)
-- [Localstack Cockpit Web UI](https://localstack.cloud/products/cockpit/)
+- [Localstack Cockpit Web UI](https://localstack.cloud/products/cockpit/) use this to make sure your services are running
 - [AWS Feature Coverage](https://docs.localstack.cloud/aws/feature-coverage/)
 
 ## Integrations
@@ -56,6 +56,33 @@ aws_secret_access_key = test
 ```
 - Start LocalStack from the command line `localstack start`
 - Test you can hit a endpoint `aws --profile localstack --endpoint-url=http://localhost:4566 kinesis list-streams`
+
+## Terraform
+- Install Terraform
+- Navigate to `terraform/` folder
+- run `terraform init` then `terraform plan` then `terraform apply`
+- Terraform configuration for a S3 bucket deployment
+```
+provider "aws" {
+
+  access_key                  = "test"
+  secret_key                  = "test"
+  region                      = "eu-central-1"
+
+  s3_force_path_style         = true
+  skip_credentials_validation = true
+  skip_metadata_api_check     = true
+  skip_requesting_account_id  = true
+
+  endpoints {
+    s3             = "http://s3.localhost.localstack.cloud:4566"
+  }
+}
+
+resource "aws_s3_bucket" "test-bucket" {
+  bucket = "my-bucket"
+}
+```
 
 ## Endpoints
 ```
