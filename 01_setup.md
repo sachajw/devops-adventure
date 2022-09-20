@@ -300,7 +300,7 @@ brk = "!f() { git cap \"‼️ BREAKING: $@\"; }; f"
 #### [Azure registry](https://azure.microsoft.com/en-us/products/container-registry/)
 - [Terms & Conditions](https://azure.microsoft.com/en-us/support/legal/)
 
-#### [RedHat Quay registry](https://quay.io/)
+#### [RedHat Quay registry](https://quay.io/) (Ortelius image lives here)
 - [Terms & Conditions](https://cloud.redhat.com/legal/terms)
 
 ### [Kind.sigs.k8s.io](https://kind.sigs.k8s.io/)
