@@ -167,7 +167,7 @@ command = service docker start
 - Discord integrations are [here](https://docs.gitguardian.com/internal-repositories-monitoring/notifications/discord)
 - [Terms & Conditions](https://www.gitguardian.com/legal-terms)
 
-### [YADM.io](https://yadm.io/) Yet Another Dot File Manager `Optional`
+### [YADM.io](https://yadm.io/) Yet Another Dot File Manager `OPTIONAL`
 - In Linux you end up with a lot of config files which usually start with `.`
 - The dot files have configurations for various application packages installed on your machine
 - YADM allows you to keep the dot files of your choice backed up to a repository
@@ -282,7 +282,7 @@ brk = "!f() { git cap \"‼️ BREAKING: $@\"; }; f"
 - [Podman-Desktop](https://podman-desktop.io/)
 - Get familiar with the basic commands
 - Checkout the Podman documentation [here](https://docs.podman.io/en/latest/)
--[Terms & Conditions](https://github.com/containers/podman/blob/main/LICENSE)
+- [Terms & Conditions](https://github.com/containers/podman/blob/main/LICENSE)
 
 ### Container Registries
 - Think of container registries as huge parking lots for containers
