@@ -97,11 +97,13 @@
 - Markdown
 - [Machine Learning](https://www.expert.ai/blog/machine-learning-definition/)
 - Microservices
+- [NFTs]()
 - Opensource
 - Package Manager
 - Parameterisation
 - PODs
 - [Terraform](https://www.terraform.io/)
+- [Web3]()
 - [XRPL](https://xrpl.org/)
 
 ## Learning platforms

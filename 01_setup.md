@@ -124,6 +124,14 @@ command = service docker start
 - [Terms & Conditions](https://opensource.org/licenses/BSD-3-Clause)
 #### [Brew.sh](https://brew.sh/)
 - [Terms & Conditions](https://github.com/Homebrew/brew/blob/master/LICENSE.txt)
+#### [Docker Mac Net Connect](https://github.com/chipmk/docker-mac-net-connect) `MANDATORY`
+- Accessing containers directly by IP (instead of port binding) can be useful and convenient.
+- Unlike Docker on Linux, Docker-for-Mac does not expose container networks directly on the macOS host.
+- Docker-for-Mac works by running a Linux VM under the hood (using hyperkit) and creates containers within that VM.
+- Docker-for-Mac supports connecting to containers over Layer 4 (port binding), but not Layer 3 (by IP address).
+
+***Solution***
+- Create a minimal network tunnel between macOS and the Docker Desktop Linux VM. The tunnel is implemented using WireGuard.
 
 # Starters
 ### [Topgrade | Update everything with one command](https://github.com/r-darwish/topgrade) `OPTIONAL`
