@@ -136,12 +136,16 @@ command = service docker start
 
 ***Install***
 
-```
 # Install via Homebrew
+```
 brew install chipmk/tap/docker-mac-net-connect
+```
 
 # Run the service and register it to launch at boot
+```
 brew services start chipmk/tap/docker-mac-net-connect
+```
+```
 sudo brew services start chipmk/tap/docker-mac-net-connect
 ```
 
