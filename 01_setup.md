@@ -134,8 +134,6 @@ command = service docker start
 - Create a minimal network tunnel between macOS and the Docker Desktop Linux VM.
 - The tunnel is implemented using WireGuard.
 
-***Install***
-
 #### Install via Homebrew
 ```
 brew install chipmk/tap/docker-mac-net-connect
