@@ -131,7 +131,19 @@ command = service docker start
 - Docker-for-Mac supports connecting to containers over Layer 4 (port binding), but not Layer 3 (by IP address).
 
 ***Solution***
-- Create a minimal network tunnel between macOS and the Docker Desktop Linux VM. The tunnel is implemented using WireGuard.
+- Create a minimal network tunnel between macOS and the Docker Desktop Linux VM.
+- The tunnel is implemented using WireGuard.
+
+***Install***
+
+```
+# Install via Homebrew
+brew install chipmk/tap/docker-mac-net-connect
+
+# Run the service and register it to launch at boot
+brew services start chipmk/tap/docker-mac-net-connect
+sudo brew services start chipmk/tap/docker-mac-net-connect
+```
 
 # Starters
 ### [Topgrade | Update everything with one command](https://github.com/r-darwish/topgrade) `OPTIONAL`
