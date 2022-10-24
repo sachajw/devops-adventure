@@ -6,5 +6,8 @@
 - Ngrok
 - Springboot Java Spring Petclinic Application | Uses Maven which fits with the Jenkins course
 
+## Hacktoberfest
+- get your remaining PR's in by updating the Ortelius Environment with new material or fixes
+
 ## For the future
 - Terraform vs Pulumi
