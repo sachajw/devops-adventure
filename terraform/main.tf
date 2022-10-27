@@ -71,20 +71,6 @@ resource "helm_release" "argocd" {
   ]
 }
 
-resource "helm_release" "keptn" {
-  name = "keptn"
-
-  repository       = "https://ortelius.github.io/keptn-ortelius-service"
-  chart            = "keptn-ortelius-service"
-  namespace        = "keptn"
-  version          = "0.0.1"
-  create_namespace = true
-
-  values = [
-    file("argocd/application.yaml")
-  ]
-}
-
 resource "helm_release" "ortelius" {
   name = "ortelius"
 
