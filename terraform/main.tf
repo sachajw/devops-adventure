@@ -73,3 +73,4 @@ resource "helm_release" "argocd" {
   values = [
     file("argocd/application.yaml")
   ]
+}
