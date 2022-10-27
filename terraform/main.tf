@@ -1,11 +1,11 @@
 terraform {
   required_providers {
-      kind = {
-      source = "tehcyx/kind"
+    kind = {
+      source  = "tehcyx/kind"
       version = "~> 0.0.14"
     }
 
-      kubectl = {
+    kubectl = {
       source  = "gavinbunney/kubectl"
       version = "~> 1.14.0"
     }
@@ -15,7 +15,7 @@ terraform {
       version = "~> 3.0"
     }
     helm = {
-      source = "hashicorp/helm"
+      source  = "hashicorp/helm"
       version = "2.3.0"
     }
     github = {
@@ -28,10 +28,10 @@ terraform {
 provider "kind" {}
 
 resource "kind_cluster" "default" {
-  name = "ortelius-in-a-box"
+  name           = "ortelius-in-a-box"
   wait_for_ready = true
   kind_config {
-    kind = "Cluster"
+    kind        = "Cluster"
     api_version = "kind.x-k8s.io/v1alpha4"
 
     node {
@@ -39,30 +39,30 @@ resource "kind_cluster" "default" {
     }
 
     node {
-      role = "worker"
+      role  = "worker"
       image = "kindest/node:v1.25.2"
     }
   }
 }
 
 provider "kubectl" {
-  host = "${kind_cluster.default.endpoint}"
-  cluster_ca_certificate = "${kind_cluster.default.cluster_ca_certificate}"
-  client_certificate = "${kind_cluster.default.client_certificate}"
-  client_key = "${kind_cluster.default.client_key}"
+  host                   = kind_cluster.default.endpoint
+  cluster_ca_certificate = kind_cluster.default.cluster_ca_certificate
+  client_certificate     = kind_cluster.default.client_certificate
+  client_key             = kind_cluster.default.client_key
 }
 
 provider "helm" {
   kubernetes {
-    host = "${kind_cluster.default.endpoint}"
-    cluster_ca_certificate = "${kind_cluster.default.cluster_ca_certificate}"
-    client_certificate = "${kind_cluster.default.client_certificate}"
-    client_key = "${kind_cluster.default.client_key}"
+    host                   = kind_cluster.default.endpoint
+    cluster_ca_certificate = kind_cluster.default.cluster_ca_certificate
+    client_certificate     = kind_cluster.default.client_certificate
+    client_key             = kind_cluster.default.client_key
   }
 }
 
 resource "helm_release" "argocd" {
-  name  = "argocd"
+  name = "argocd"
 
   repository       = "https://argoproj.github.io/argo-helm"
   chart            = "argo-cd"
