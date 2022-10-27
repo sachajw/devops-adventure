@@ -81,3 +81,25 @@ resource "helm_release" "keptn" {
   create_namespace = true
 
 }
+
+resource "helm_release" "ortelius" {
+  name = "ortelius"
+
+  repository       = "https://ortelius.github.io/ortelius-charts/"
+  chart            = "ortelius"
+  namespace        = "ortelius"
+  version          = "10.0.0"
+  create_namespace = true
+
+}
+
+resource "helm_release" "localstack" {
+  name = "ortelius"
+
+  repository       = "https://github.com/localstack/helm-charts"
+  chart            = "ortelius"
+  namespace        = "ortelius"
+  version          = "10.0.0"
+  create_namespace = true
+
+}

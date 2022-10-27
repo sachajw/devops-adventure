@@ -10,7 +10,7 @@ spec:
   project: ortelius
   source:
     path: argocd/manifests/ortelius
-    repoURL: https://github.com/piomin/sample-terraform-kubernetes-argocd.git
+    repoURL: https://github.com/ortelius/ortelius-charts.git
     targetRevision: HEAD
   syncPolicy:
     syncOptions:
