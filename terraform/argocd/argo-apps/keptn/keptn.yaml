@@ -1,0 +1,19 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: keptn
+  namespace: argocd
+spec:
+  destination:
+    namespace: keptn
+    server: https://kubernetes.default.svc
+  project: keptn
+  source:
+    path: argocd/argo-apps/keptn
+    repoURL: https://ortelius.github.io/keptn-ortelius-service.git
+    targetRevision: HEAD
+  syncPolicy:
+    automated:
+      prune: true
+    syncOptions:
+      - CreateNamespace=true

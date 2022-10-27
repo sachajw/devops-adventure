@@ -12,7 +12,7 @@ terraform {
 
     helm = {
       source  = "hashicorp/helm"
-      version = "2.3.0"
+      version = "2.7.1"
     }
     github = {
       source  = "integrations/github"
@@ -71,13 +71,27 @@ resource "helm_release" "argocd" {
   ]
 }
 
+resource "helm_release" "keptn" {
+  name = "keptn"
+
+  repository       = "https://charts.keptn.sh"
+  chart            = "keptn"
+  namespace        = "keptn"
+  version          = "0.19.1"
+  create_namespace = true
+
+  values = [
+    file("argocd/application.yaml")
+  ]
+}
+
 resource "helm_release" "ortelius" {
   name = "ortelius"
 
-  repository       = "https://ortelius.github.io/ortelius-charts/"
-  chart            = "ortelius"
+  repository       = "https://github.com/ortelius/ortelius"
+  chart            = "dh-ms-ui"
   namespace        = "ortelius"
-  version          = "10.0.0"
+  version          = "0.1.0"
   create_namespace = true
 
   values = [
