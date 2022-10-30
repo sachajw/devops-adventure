@@ -71,25 +71,11 @@ resource "helm_release" "argocd" {
   ]
 }
 
-resource "helm_release" "keptn" {
-  name = "keptn"
-
-  repository       = "https://charts.keptn.sh"
-  chart            = "keptn"
-  namespace        = "keptn"
-  version          = "0.19.1"
-  create_namespace = true
-
-  values = [
-    file("argocd/application.yaml")
-  ]
-}
-
 resource "helm_release" "ortelius" {
   name = "ortelius"
 
-  repository       = "https://github.com/ortelius/ortelius"
-  chart            = "dh-ms-ui"
+  repository       = "https://github.com/DeployHubProject/DeployHub-Pro" #dirname("~/Documents/repos/tvl/ortelius-charts/chart") #"https://github.com/sachajw/ortelius-charts" #"https://deployhubproject.github.io/DeployHub-Pro/" #"https://github.com/ortelius/ortelius/index.yaml"
+  chart            = "deployhub"
   namespace        = "ortelius"
   version          = "0.1.0"
   create_namespace = true
@@ -98,3 +84,17 @@ resource "helm_release" "ortelius" {
     file("argocd/application.yaml")
   ]
 }
+
+#resource "helm_release" "keptn" {
+#  name = "keptn"
+#
+#  repository       = "https://charts.keptn.sh"
+#  chart            = "keptn"
+#  namespace        = "keptn"
+#  version          = "0.19.1"
+#  create_namespace = true
+#
+#  values = [
+#    file("argocd/application.yaml")
+#  ]
+#}

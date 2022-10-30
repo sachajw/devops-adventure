@@ -10,7 +10,7 @@ spec:
   project: keptn
   source:
     path: argocd/argo-apps/keptn
-    repoURL: https://ortelius.github.io/keptn-ortelius-service.git
+    repoURL: https://charts.keptn.sh
     targetRevision: HEAD
   syncPolicy:
     automated:

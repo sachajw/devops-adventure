@@ -10,7 +10,7 @@ spec:
   project: ortelius
   source:
     path: argocd/argo-apps/ortelius
-    repoURL: https://ortelius.github.io/ortelius/
+    repoURL: https://github.com/ortelius/ortelius
     targetRevision: HEAD
   syncPolicy:
     automated:
